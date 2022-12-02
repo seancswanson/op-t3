@@ -1,0 +1,16 @@
+{
+    "workbench.colorCustomizations": {
+        "terminal.selectionBackground": "#fff",
+        "tree.indentGuidesStroke": "#008070"
+    },
+    "cSpell.words": [
+        "Authed",
+        "cuid",
+        "datasource",
+        "sqlserver",
+        "superjson",
+        "trpc",
+        "TRPC"
+    ],
+    "window.title": "${activeEditorShort}${separator}${rootName} ${separator} [Branch: main]"
+}
