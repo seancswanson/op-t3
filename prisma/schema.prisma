@@ -58,9 +58,18 @@ model User {
 }
 
 model Stand {
+  id            Int @id @default(autoincrement())
   reference_url String
-  season String
-  
+  season        String
+  type          String
+  stand         String
+  stand_ja      String
+  stand_images  String
+  user          String
+  gender        String
+  hair_color    String
+  eye_color     String
+  user_images   String
 }
 
 model VerificationToken {

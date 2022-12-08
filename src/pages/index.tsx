@@ -5,13 +5,21 @@ import Link from "next/link";
 import { signIn, signOut, useSession } from "next-auth/react";
 
 import { trpc } from "../utils/trpc";
+import { getOptionsForVote } from "../utils/getRandomStand";
+import { useEffect, useState } from "react";
 
 const Home: NextPage = () => {
-  const hello = trpc.example.hello.useQuery();
+  const [first, second] = getOptionsForVote();
+  const [ids, setIds] = useState([0, 0]);
+
+  useEffect(() => {
+    setIds(getOptionsForVote());
+  }, []);
+    console.log(...ids);
+  
   const jjba = trpc.data.getJJBAData.useQuery();
   const handleOpClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     console.log("Clicked!", e);
-    console.log(hello);
     console.log(jjba.data);
   };
 
@@ -30,6 +38,7 @@ const Home: NextPage = () => {
         <div className="text-center text-2xl">Which Stand is more OP?</div>
         <div className="flex items-center justify-around p-8">
           <div className="flex flex-col items-center">
+            {ids[0]}
             <div className="stand-name mb-8 text-xl">Star Platinum</div>
             <div className="stand-picture-container relative mb-4 h-64 w-52">
               <Image
@@ -49,8 +58,9 @@ const Home: NextPage = () => {
           </div>
           <div className="p-8 italic">or</div>
           <div className="flex flex-col items-center">
+            {ids[1]}
             <div className="stand-name mb-8 text-xl">The World</div>
-            <div className="stand-picture-container relative mb-4 h-64 w-52">
+            <div className="stand-picture-container relative mb-4 h-64 w-52 ">
               <Image
                 className="rendering-pixelated rounded drop-shadow-2xl"
                 src="https://static.jojowiki.com/images/thumb/7/7e/latest/20191015213103/The_World_Infobox_Anime.png/200px-The_World_Infobox_Anime.png"
