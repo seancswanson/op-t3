@@ -1,5 +1,6 @@
 { "data": [
     {
+      "id": 1,
       "reference_url": "https://jojowiki.com/Star_Platinum",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Reconnaissance", "Natural Humanoid"],
@@ -22,6 +23,7 @@
       ]
     },
     {
+      "id": 2,
       "reference_url": "https://jojowiki.com/Magician%27s_Red",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Reconnaissance", "Natural Humanoid"],
@@ -39,6 +41,7 @@
       ]
     },
     {
+      "id": 3,
       "reference_url": "https://jojowiki.com/Hermit_Purple",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Reconnaissance", "Natural Non-Humanoid"],
@@ -59,6 +62,7 @@
       ]
     },
     {
+      "id": 4,
       "reference_url": "https://jojowiki.com/Hierophant_Green",
       "season": "Stardust Crusaders",
       "type": ["Long-Range", "Reconnaissance", "Artificial Humanoid"],
@@ -76,6 +80,7 @@
       ]
     },
     {
+      "id": 5,
       "reference_url": "https://jojowiki.com/Silver_Chariot",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Artificial Humanoid"],
@@ -95,6 +100,7 @@
       ]
     },
     {
+      "id": 6,
       "reference_url": "https://jojowiki.com/The_Fool",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Materialized", "Artificial Non-Humanoid"],
@@ -112,6 +118,7 @@
       ]
     },
     {
+      "id": 7,
       "reference_url": "https://jojowiki.com/The_World",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Range Irrelevant", "Natural Humanoid"],
@@ -132,6 +139,7 @@
       ]
     },
     {
+      "id": 8,
       "reference_url": "https://jojowiki.com/Tower_of_Gray",
       "season": "Stardust Crusaders",
       "type": ["Long-Range", "Natural Non-Humanoid"],
@@ -149,6 +157,7 @@
       ]
     },
     {
+      "id": 9,
       "reference_url": "https://jojowiki.com/Dark_Blue_Moon",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Natural Humanoid"],
@@ -166,6 +175,7 @@
       ]
     },
     {
+      "id": 10,
       "reference_url": "https://jojowiki.com/Strength",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Materialized", "Artificial Non-Humanoid"],
@@ -183,6 +193,7 @@
       ]
     },
     {
+      "id": 11,
       "reference_url": "https://jojowiki.com/Ebony_Devil",
       "season": "Stardust Crusaders",
       "type": ["Long-Range", "Natural Non-Humanoid"],
@@ -200,6 +211,7 @@
       ]
     },
     {
+      "id": 12,
       "reference_url": "https://jojowiki.com/Yellow_Temperance",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Materialized", "Natural Non-Humanoid"],
@@ -217,6 +229,7 @@
       ]
     },
     {
+      "id": 13,
       "reference_url": "https://jojowiki.com/Hanged_Man",
       "season": "Stardust Crusaders",
       "type": ["Long-Range", "Natural Humanoid"],
@@ -234,6 +247,7 @@
       ]
     },
     {
+      "id": 14,
       "reference_url": "https://jojowiki.com/Emperor",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Artificial Non-Humanoid"],
@@ -251,6 +265,7 @@
       ]
     },
     {
+      "id": 15,
       "reference_url": "https://jojowiki.com/Empress",
       "season": "Stardust Crusaders",
       "type": ["Long-Range", "Materialized", "Natural Humanoid"],
@@ -269,6 +284,7 @@
       ]
     },
     {
+      "id": 16,
       "reference_url": "https://jojowiki.com/Wheel_of_Fortune",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Materialized", "Artificial Non-Humanoid"],
@@ -286,6 +302,7 @@
       ]
     },
     {
+      "id": 17,
       "reference_url": "https://jojowiki.com/Justice",
       "season": "Stardust Crusaders",
       "type": ["Long-Range", "Natural Non-Humanoid"],
@@ -303,6 +320,7 @@
       ]
     },
     {
+      "id": 18,
       "reference_url": "https://jojowiki.com/Lovers",
       "season": "Stardust Crusaders",
       "type": ["Long-Range", "Natural Humanoid"],
@@ -320,6 +338,7 @@
       ]
     },
     {
+      "id": 19,
       "reference_url": "https://jojowiki.com/Sun",
       "season": "Stardust Crusaders",
       "type": ["Long-Range", "Natural Non-Humanoid"],
@@ -337,6 +356,7 @@
       ]
     },
     {
+      "id": 20,
       "reference_url": "https://jojowiki.com/Death_Thirteen",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Artificial Humanoid", "Psychological Assault"],
@@ -354,6 +374,7 @@
       ]
     },
     {
+      "id": 21,
       "reference_url": "https://jojowiki.com/Judgement",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Artificial Humanoid"],
@@ -371,6 +392,7 @@
       ]
     },
     {
+      "id": 22,
       "reference_url": "https://jojowiki.com/High_Priestess",
       "season": "Stardust Crusaders",
       "type": ["Long-Range", "Natural Humanoid"],
@@ -388,6 +410,7 @@
       ]
     },
     {
+      "id": 23,
       "reference_url": "https://jojowiki.com/Geb",
       "season": "Stardust Crusaders",
       "type": ["Long-Range", "Materialized", "Natural Non-Humanoid"],
@@ -405,6 +428,7 @@
       ]
     },
     {
+      "id": 24,
       "reference_url": "https://jojowiki.com/Khnum",
       "season": "Stardust Crusaders",
       "type": ["Integrated Stand", "Phenomenon"],
@@ -422,6 +446,7 @@
       ]
     },
     {
+      "id": 25,
       "reference_url": "https://jojowiki.com/Tohth",
       "season": "Stardust Crusaders",
       "type": [
@@ -444,6 +469,7 @@
       ]
     },
     {
+      "id": 26,
       "reference_url": "https://jojowiki.com/Bastet",
       "season": "Stardust Crusaders",
       "type": ["Long-Range", "Artificial Non-Humanoid"],
@@ -461,6 +487,7 @@
       ]
     },
     {
+      "id": 27,
       "reference_url": "https://jojowiki.com/Sethan",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Materialized", "Natural Non-Humanoid"],
@@ -478,6 +505,7 @@
       ]
     },
     {
+      "id": 28,
       "reference_url": "https://jojowiki.com/Osiris",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Psychological Assault", "Natural Humanoid"],
@@ -495,6 +523,7 @@
       ]
     },
     {
+      "id": 29,
       "reference_url": "https://jojowiki.com/Horus",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Natural Non-Humanoid"],
@@ -512,6 +541,7 @@
       ]
     },
     {
+      "id": 30,
       "reference_url": "https://jojowiki.com/Atum",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Psychological Assault", "Artificial Humanoid"],
@@ -529,6 +559,7 @@
       ]
     },
     {
+      "id": 31,
       "reference_url": "https://jojowiki.com/Tenore_Sax",
       "season": "Stardust Crusaders",
       "type": ["Phenomenon", "Psychological Assault"],
@@ -546,6 +577,7 @@
       ]
     },
     {
+      "id": 32,
       "reference_url": "https://jojowiki.com/Cream",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Natural Humanoid"],
@@ -563,6 +595,7 @@
       ]
     },
     {
+      "id": 33,
       "reference_url": "https://jojowiki.com/Holy%27s_Stand",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Natural Non-Humanoid"],
@@ -580,6 +613,7 @@
       ]
     },
     {
+      "id": 34,
       "reference_url": "https://jojowiki.com/Jonathan%27s_Stand",
       "season": "Stardust Crusaders",
       "type": ["Close-Range", "Reconnaissance", "Natural Non-Humanoid"],
@@ -597,6 +631,7 @@
       ]
     },
     {
+      "id": 35,
       "reference_url": "https://jojowiki.com/Crazy_Diamond",
       "season": "Diamond is Unbreakable",
       "type": ["Close-Range", "Natural Humanoid"],
@@ -614,6 +649,7 @@
       ]
     },
     {
+      "id": 36,
       "reference_url": "https://jojowiki.com/Star_Platinum",
       "season": "Diamond is Unbreakable",
       "type": ["Close-Range", "Reconnaissance", "Natural Humanoid"],
@@ -636,6 +672,7 @@
       ]
     },
     {
+      "id": 37,
       "reference_url": "https://jojowiki.com/The_Hand",
       "season": "Diamond is Unbreakable",
       "type": ["Close-Range", "Artificial Humanoid"],
@@ -653,6 +690,7 @@
       ]
     },
     {
+      "id": 38,
       "reference_url": "https://jojowiki.com/Echoes",
       "season": "Diamond is Unbreakable",
       "type": [
@@ -682,6 +720,7 @@
       ]
     },
     {
+      "id": 39,
       "reference_url": "https://jojowiki.com/Heaven%27s_Door",
       "season": "Diamond is Unbreakable",
       "type": ["Close-Range", "Reconnaissance", "Natural Humanoid"],
@@ -699,6 +738,7 @@
       ]
     },
     {
+      "id": 40,
       "reference_url": "https://jojowiki.com/Killer_Queen",
       "season": "Diamond is Unbreakable",
       "type": ["Close-Range", "Natural Humanoid"],
@@ -718,6 +758,7 @@
       ]
     },
     {
+      "id": 41,
       "reference_url": "https://jojowiki.com/Sheer_Heart_Attack",
       "season": "Diamond is Unbreakable",
       "type": ["Automatic", "Artificial Non-Humanoid"],
@@ -737,6 +778,7 @@
       ]
     },
     {
+      "id": 42,
       "reference_url": "https://jojowiki.com/Bites_the_Dust",
       "season": "Diamond is Unbreakable",
       "type": [
@@ -761,6 +803,7 @@
       ]
     },
     {
+      "id": 43,
       "reference_url": "https://jojowiki.com/Aqua_Necklace",
       "season": "Diamond is Unbreakable",
       "type": ["Long-Range", "Materialized", "Natural Humanoid"],
@@ -778,6 +821,7 @@
       ]
     },
     {
+      "id": 44,
       "reference_url": "https://jojowiki.com/Bad_Company",
       "season": "Diamond is Unbreakable",
       "type": ["Close-Range", "Reconnaissance", "Natural Humanoid", "Colony"],
@@ -795,6 +839,7 @@
       ]
     },
     {
+      "id": 45,
       "reference_url": "https://jojowiki.com/Red_Hot_Chili_Pepper",
       "season": "Diamond is Unbreakable",
       "type": ["Long-Range", "Natural Humanoid"],
@@ -812,6 +857,7 @@
       ]
     },
     {
+      "id": 46,
       "reference_url": "https://jojowiki.com/The_Lock",
       "season": "Diamond is Unbreakable",
       "type": [
@@ -833,6 +879,7 @@
       ]
     },
     {
+      "id": 47,
       "reference_url": "https://jojowiki.com/Surface",
       "season": "Diamond is Unbreakable",
       "type": ["Automatic", "Materialized", "Phenomenon", "Sentient"],
@@ -850,6 +897,7 @@
       ]
     },
     {
+      "id": 48,
       "reference_url": "https://jojowiki.com/Love_Deluxe",
       "season": "Diamond is Unbreakable",
       "type": ["Range Irrelevant", "Integrated", "Materialized", "Phenomenon"],
@@ -867,6 +915,7 @@
       ]
     },
     {
+      "id": 49,
       "reference_url": "https://jojowiki.com/Pearl_Jam",
       "season": "Diamond is Unbreakable",
       "type": ["Range Irrelevant", "Natural Non-Humanoid", "Colony"],
@@ -884,6 +933,7 @@
       ]
     },
     {
+      "id": 50,
       "reference_url": "https://jojowiki.com/Hermit_Purple",
       "season": "Diamond is Unbreakable",
       "type": ["Close-Range", "Reconnaissance", "Natural Non-Humanoid"],
@@ -904,6 +954,7 @@
       ]
     },
     {
+      "id": 51,
       "reference_url": "https://jojowiki.com/Achtung_Baby",
       "season": "Diamond is Unbreakable",
       "type": ["Range Irrelevant", "Integrated", "Phenomenon"],
@@ -921,6 +972,7 @@
       ]
     },
     {
+      "id": 52,
       "reference_url": "https://jojowiki.com/Ratt",
       "season": "Diamond is Unbreakable",
       "type": ["Close-Range", "Artificial Non-Humanoid", "Shared"],
@@ -938,6 +990,7 @@
       ]
     },
     {
+      "id": 53,
       "reference_url": "https://jojowiki.com/Harvest",
       "season": "Diamond is Unbreakable",
       "type": [
@@ -960,6 +1013,7 @@
       ]
     },
     {
+      "id": 54,
       "reference_url": "https://jojowiki.com/Cinderella",
       "season": "Diamond is Unbreakable",
       "type": ["Close-Range", "Artificial Humanoid"],
@@ -977,6 +1031,7 @@
       ]
     },
     {
+      "id": 55,
       "reference_url": "https://jojowiki.com/Atom_Heart_Father",
       "season": "Diamond is Unbreakable",
       "type": [
@@ -999,6 +1054,7 @@
       ]
     },
     {
+      "id": 56,
       "reference_url": "https://jojowiki.com/Boy_II_Man",
       "season": "Diamond is Unbreakable",
       "type": ["Close-Range", "Psychological Assault", "Natural Humanoid"],
@@ -1016,6 +1072,7 @@
       ]
     },
     {
+      "id": 57,
       "reference_url": "https://jojowiki.com/Earth_Wind_and_Fire",
       "season": "Diamond is Unbreakable",
       "type": ["Range Irrelevant", "Integrated", "Phenomenon"],
@@ -1033,6 +1090,7 @@
       ]
     },
     {
+      "id": 58,
       "reference_url": "https://jojowiki.com/Highway_Star",
       "season": "Diamond is Unbreakable",
       "type": [
@@ -1055,6 +1113,7 @@
       ]
     },
     {
+      "id": 59,
       "reference_url": "https://jojowiki.com/Stray_Cat",
       "season": "Diamond is Unbreakable",
       "type": [
@@ -1080,6 +1139,7 @@
       ]
     },
     {
+      "id": 60,
       "reference_url": "https://jojowiki.com/Super_Fly",
       "season": "Diamond is Unbreakable",
       "type": ["Automatic", "Materialized", "Artificial Non-Humanoid"],
@@ -1097,6 +1157,7 @@
       ]
     },
     {
+      "id": 61,
       "reference_url": "https://jojowiki.com/Enigma",
       "season": "Diamond is Unbreakable",
       "type": ["Close-Range", "Psychological Assault", "Artificial Humanoid"],
@@ -1114,6 +1175,7 @@
       ]
     },
     {
+      "id": 62,
       "reference_url": "https://jojowiki.com/Cheap_Trick",
       "season": "Diamond is Unbreakable",
       "type": [
@@ -1137,6 +1199,7 @@
       ]
     },
     {
+      "id": 63,
       "reference_url": "https://jojowiki.com/Gold_Experience",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Reconnaissance", "Natural Humanoid"],
@@ -1154,6 +1217,7 @@
       ]
     },
     {
+      "id": 64,
       "reference_url": "https://jojowiki.com/Sticky_Fingers",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Natural Humanoid"],
@@ -1171,6 +1235,7 @@
       ]
     },
     {
+      "id": 65,
       "reference_url": "https://jojowiki.com/Moody_Blues",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Reconnaissance", "Artificial Humanoid"],
@@ -1188,6 +1253,7 @@
       ]
     },
     {
+      "id": 66,
       "reference_url": "https://jojowiki.com/Sex_Pistols",
       "season": "Vento Aureo",
       "type": ["Long-Range", "Natural Humanoid", "Colony", "Sentient"],
@@ -1205,6 +1271,7 @@
       ]
     },
     {
+      "id": 67,
       "reference_url": "https://jojowiki.com/Aerosmith",
       "season": "Vento Aureo",
       "type": ["Long-Range", "Artificial Non-Humanoid", "Reconnaissance"],
@@ -1222,6 +1289,7 @@
       ]
     },
     {
+      "id": 68,
       "reference_url": "https://jojowiki.com/Purple_Haze",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Natural Humanoid", "Sentient"],
@@ -1239,6 +1307,7 @@
       ]
     },
     {
+      "id": 69,
       "reference_url": "https://jojowiki.com/Spice_Girl",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Natural Humanoid", "Sentient"],
@@ -1256,6 +1325,7 @@
       ]
     },
     {
+      "id": 70,
       "reference_url": "https://jojowiki.com/Mr.President",
       "season": "Vento Aureo",
       "type": ["Range Irrelevant", "Integrated", "Phenomenon"],
@@ -1273,6 +1343,7 @@
       ]
     },
     {
+      "id": 71,
       "reference_url": "https://jojowiki.com/Silver_Chariot",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Artificial Humanoid"],
@@ -1292,6 +1363,7 @@
       ]
     },
     {
+      "id": 72,
       "reference_url": "https://jojowiki.com/Chariot_Requiem",
       "season": "Vento Aureo",
       "type": ["Automatic", "Materialized", "Natural Humanoid", "Evolved"],
@@ -1310,6 +1382,7 @@
       ]
     },
     {
+      "id": 73,
       "reference_url": "https://jojowiki.com/Gold_Experience_Requiem",
       "season": "Vento Aureo",
       "type": [
@@ -1333,6 +1406,7 @@
       ]
     },
     {
+      "id": 74,
       "reference_url": "https://jojowiki.com/King_Crimson",
       "season": "Vento Aureo",
       "type": [
@@ -1356,6 +1430,7 @@
       ]
     },
     {
+      "id": 75,
       "reference_url": "https://jojowiki.com/Echoes",
       "season": "Vento Aureo",
       "type": [
@@ -1385,6 +1460,7 @@
       ]
     },
     {
+      "id": 76,
       "reference_url": "https://jojowiki.com/Black_Sabbath",
       "season": "Vento Aureo",
       "type": ["Automatic", "Artificial Humanoid"],
@@ -1402,6 +1478,7 @@
       ]
     },
     {
+      "id": 77,
       "reference_url": "https://jojowiki.com/Soft_Machine",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Artificial Humanoid"],
@@ -1419,6 +1496,7 @@
       ]
     },
     {
+      "id": 78,
       "reference_url": "https://jojowiki.com/Kraft_Work",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Artificial Humanoid"],
@@ -1436,6 +1514,7 @@
       ]
     },
     {
+      "id": 79,
       "reference_url": "https://jojowiki.com/Little_Feet",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Artificial Humanoid"],
@@ -1453,6 +1532,7 @@
       ]
     },
     {
+      "id": 80,
       "reference_url": "https://jojowiki.com/Man_in_the_Mirror",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Natural Humanoid"],
@@ -1470,6 +1550,7 @@
       ]
     },
     {
+      "id": 81,
       "reference_url": "https://jojowiki.com/Beach_Boy",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Reconnaissance", "Artificial Non-Humanoid"],
@@ -1487,6 +1568,7 @@
       ]
     },
     {
+      "id": 82,
       "reference_url": "https://jojowiki.com/The_Grateful_Dead",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Artificial Humanoid"],
@@ -1504,6 +1586,7 @@
       ]
     },
     {
+      "id": 83,
       "reference_url": "https://jojowiki.com/Baby_Face",
       "season": "Vento Aureo",
       "type": [
@@ -1527,6 +1610,7 @@
       ]
     },
     {
+      "id": 84,
       "reference_url": "https://jojowiki.com/White_Album",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Artificial Non-Humanoid"],
@@ -1544,6 +1628,7 @@
       ]
     },
     {
+      "id": 85,
       "reference_url": "https://jojowiki.com/Clash",
       "season": "Vento Aureo",
       "type": ["Long-Range", "Natural Non-Humanoid"],
@@ -1561,6 +1646,7 @@
       ]
     },
     {
+      "id": 86,
       "reference_url": "https://jojowiki.com/Talking_Head",
       "season": "Vento Aureo",
       "type": ["Long-Range", "Phenomenon"],
@@ -1578,6 +1664,7 @@
       ]
     },
     {
+      "id": 87,
       "reference_url": "https://jojowiki.com/Notorious_B.I.G",
       "season": "Vento Aureo",
       "type": ["Automatic", "Phenomenon"],
@@ -1596,6 +1683,7 @@
       ]
     },
     {
+      "id": 88,
       "reference_url": "https://jojowiki.com/Metallica",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Phenomenon", "Colony"],
@@ -1613,6 +1701,7 @@
       ]
     },
     {
+      "id": 89,
       "reference_url": "https://jojowiki.com/Green_Day",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Artificial Humanoid"],
@@ -1630,6 +1719,7 @@
       ]
     },
     {
+      "id": 90,
       "reference_url": "https://jojowiki.com/Oasis",
       "season": "Vento Aureo",
       "type": ["Close-Range", "Artificial Non-Humanoid"],
@@ -1647,6 +1737,7 @@
       ]
     },
     {
+      "id": 91,
       "reference_url": "https://jojowiki.com/Rolling_Stones",
       "season": "Vento Aureo",
       "type": ["Automatic", "Foresight", "Natural Non-Humanoid"],
@@ -1664,6 +1755,7 @@
       ]
     },
     {
+      "id": 92,
       "reference_url": "https://jojowiki.com/Stone_Free",
       "season": "Stone Ocean",
       "type": [
@@ -1686,6 +1778,7 @@
       ]
     },
     {
+      "id": 93,
       "reference_url": "https://jojowiki.com/Star_Platinum",
       "season": "Stone Ocean",
       "type": ["Close-Range", "Reconnaissance", "Natural Humanoid"],
@@ -1708,6 +1801,7 @@
       ]
     },
     {
+      "id": 94,
       "reference_url": "https://jojowiki.com/Kiss",
       "season": "Stone Ocean",
       "type": ["Close-Range", "Natural Humanoid"],
@@ -1725,6 +1819,7 @@
       ]
     },
     {
+      "id": 95,
       "reference_url": "https://jojowiki.com/Burning_Down_the_House",
       "season": "Stone Ocean",
       "type": ["Range Irrelevant", "Materialized", "Phenomenon"],
@@ -1742,6 +1837,7 @@
       ]
     },
     {
+      "id": 96,
       "reference_url": "https://jojowiki.com/Foo_Fighters_(Stand)",
       "season": "Stone Ocean",
       "type": ["Range Irrelevant", "Phenomenon", "Shared"],
@@ -1760,6 +1856,7 @@
       ]
     },
     {
+      "id": 97,
       "reference_url": "https://jojowiki.com/Weather_Report_(Stand)",
       "season": "Stone Ocean",
       "type": ["Close-Range", "Artificial Humanoid"],
@@ -1777,6 +1874,7 @@
       ]
     },
     {
+      "id": 98,
       "reference_url": "https://jojowiki.com/Diver_Down",
       "season": "Stone Ocean",
       "type": ["Close-Range", "Artificial Humanoid"],
@@ -1794,6 +1892,7 @@
       ]
     },
     {
+      "id": 99,
       "reference_url": "https://jojowiki.com/Whitesnake",
       "season": "Stone Ocean",
       "type": [
@@ -1816,6 +1915,7 @@
       ]
     },
     {
+      "id": 100,
       "reference_url": "https://jojowiki.com/C-Moon",
       "season": "Stone Ocean",
       "type": ["Long-Range", "Natural Humanoid", "Evolved"],
@@ -1833,6 +1933,7 @@
       ]
     },
     {
+      "id": 101,
       "reference_url": "https://jojowiki.com/Made_in_Heaven",
       "season": "Stone Ocean",
       "type": [
@@ -1843,7 +1944,7 @@
       ],
       "stand": "Made in Heaven",
       "stand_ja": "メイド・イン・ヘブン",
-      "stand_images": [],
+      "stand_images": ["https://static.jojowiki.com/images/thumb/a/a4/latest/20221205184222/Made_in_Heaven_Infobox_Anime.png/400px-Made_in_Heaven_Infobox_Anime.png"],
       "user": "Enrico Pucci",
       "gender": "Male",
       "hair_color": "White ",
@@ -1853,6 +1954,7 @@
       ]
     },
     {
+      "id": 102,
       "reference_url": "https://jojowiki.com/Goo_Goo_Dolls",
       "season": "Stone Ocean",
       "type": ["Long-Range", "Artificial Humanoid"],
@@ -1870,6 +1972,7 @@
       ]
     },
     {
+      "id": 103,
       "reference_url": "https://jojowiki.com/Manhattan_Transfer",
       "season": "Stone Ocean",
       "type": ["Long-Range", "Reconnaissance", "Artificial Non-Humanoid"],
@@ -1887,6 +1990,7 @@
       ]
     },
     {
+      "id": 104,
       "reference_url": "https://jojowiki.com/Highway_to_Hell",
       "season": "Stone Ocean",
       "type": ["Long-Range", "Artificial Non-Humanoid"],
@@ -1904,6 +2008,7 @@
       ]
     },
     {
+      "id": 105,
       "reference_url": "https://jojowiki.com/Marilyn_Manson",
       "season": "Stone Ocean",
       "type": [
@@ -1926,6 +2031,7 @@
       ]
     },
     {
+      "id": 106,
       "reference_url": "https://jojowiki.com/Jumpin%27_Jack_Flash",
       "season": "Stone Ocean",
       "type": ["Close-Range", "Artificial Humanoid"],
@@ -1943,6 +2049,7 @@
       ]
     },
     {
+      "id": 107,
       "reference_url": "https://jojowiki.com/Limp_Bizkit",
       "season": "Stone Ocean",
       "type": ["Range Irrelevant", "Phenomenon"],
@@ -1960,6 +2067,7 @@
       ]
     },
     {
+      "id": 108,
       "reference_url": "https://jojowiki.com/Survivor",
       "season": "Stone Ocean",
       "type": [
@@ -1982,6 +2090,7 @@
       ]
     },
     {
+      "id": 109,
       "reference_url": "https://jojowiki.com/Planet_Waves",
       "season": "Stone Ocean",
       "type": ["Close-Range", "Natural Humanoid"],
@@ -1999,6 +2108,7 @@
       ]
     },
     {
+      "id": 110,
       "reference_url": "https://jojowiki.com/Dragon%27s_Dream",
       "season": "Stone Ocean",
       "type": ["Automatic", "Artificial Non-Humanoid", "Sentient"],
@@ -2016,6 +2126,7 @@
       ]
     },
     {
+      "id": 111,
       "reference_url": "https://jojowiki.com/Yo-Yo_Ma",
       "season": "Stone Ocean",
       "type": ["Automatic", "Natural Humanoid", "Sentient"],
@@ -2033,6 +2144,7 @@
       ]
     },
     {
+      "id": 112,
       "reference_url": "https://jojowiki.com/Green,_Green_Grass_of_Home",
       "season": "Stone Ocean",
       "type": ["Close-Range", "Natural Humanoid"],
@@ -2050,6 +2162,7 @@
       ]
     },
     {
+      "id": 113,
       "reference_url": "https://jojowiki.com/Jail_House_Lock",
       "season": "Stone Ocean",
       "type": ["Close-Range", "Psychological Assault", "Artificial Humanoid"],
@@ -2067,12 +2180,13 @@
       ]
     },
     {
+      "id": 114,
       "reference_url": "https://jojowiki.com/Bohemian_Rhapsody",
       "season": "Stone Ocean",
       "type": ["Range Irrelevant", "Psychological Assault", "Phenomenon"],
       "stand": "Bohemian Rhapsody",
       "stand_ja": "ボヘミアン・ラプソディー (自由人の狂想曲)",
-      "stand_images": [],
+      "stand_images": ["https://static.jojowiki.com/images/thumb/b/b4/latest/20221203195202/Bohemian_Rhapsody_Infobox_Anime.png/400px-Bohemian_Rhapsody_Infobox_Anime.png"],
       "user": "Ungalo",
       "gender": "Male",
       "hair_color": "Unknown",
@@ -2082,12 +2196,13 @@
       ]
     },
     {
+      "id": 115,
       "reference_url": "https://jojowiki.com/Sky_High",
       "season": "Stone Ocean",
       "type": ["Close-Range", "Natural Non-Humanoid"],
       "stand": "Sky High",
       "stand_ja": "スカイ・ハイ",
-      "stand_images": [],
+      "stand_images": ["https://static.jojowiki.com/images/thumb/6/6b/latest/20221201105503/Sky_High_Render_Appearance_Anime.png/400px-Sky_High_Render_Appearance_Anime.png"],
       "user": "Rikiel",
       "gender": "Male",
       "hair_color": "Pink & Black ",
@@ -2097,12 +2212,13 @@
       ]
     },
     {
+      "id": 116,
       "reference_url": "https://jojowiki.com/Under_World",
       "season": "Stone Ocean",
       "type": ["Close-Range", "Psychological Assault", "Artificial Humanoid"],
       "stand": "Under World",
       "stand_ja": "アンダー・ワールド",
-      "stand_images": [],
+      "stand_images": ["https://static.wikia.nocookie.net/jjba/images/b/bb/Underworld_Anime.png/revision/latest/scale-to-width-down/284?cb=20221202212314"],
       "user": "Donatello Versus",
       "gender": "Male",
       "hair_color": "Blond with a black line ",
@@ -2112,6 +2228,7 @@
       ]
     },
     {
+      "id": 117,
       "reference_url": "https://jojowiki.com/The_World",
       "season": "Stone Ocean",
       "type": ["Close-Range", "Range Irrelevant", "Natural Humanoid"],

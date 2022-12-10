@@ -1,27 +1,64 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import { type NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import { signIn, signOut, useSession } from "next-auth/react";
 
 import { trpc } from "../utils/trpc";
 import { getOptionsForVote } from "../utils/getRandomStand";
 import { useEffect, useState } from "react";
+import type { Stand } from "./api/jjbaData";
+import data from "../pages/api/data/all_data.json";
+import jojoLogo from "../../public/jjba_pixel_logo.png";
 
 const Home: NextPage = () => {
-  const [first, second] = getOptionsForVote();
   const [ids, setIds] = useState([0, 0]);
 
   useEffect(() => {
     setIds(getOptionsForVote());
   }, []);
-    console.log(...ids);
-  
-  const jjba = trpc.data.getJJBAData.useQuery();
-  const handleOpClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+
+  const [first, second] = ids;
+
+  console.log(...ids);
+
+  const firstStand = trpc.data.getStandById.useQuery({ id: first });
+  const secondStand = trpc.data.getStandById.useQuery({ id: second });
+
+ const handleOpClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     console.log("Clicked!", e);
-    console.log(jjba.data);
   };
+
+  function Stand(props: { stand: Stand }) {
+    const stand = props.stand;
+    console.log("props", props);
+    if (!stand.stand_images[0]) {
+      console.log(stand.stand);
+    }
+    return (
+      <div className="flex flex-col items-center">
+        <div className="stand-name mb-2 text-xl">{stand.stand}</div>
+        <div className="stand-name mb-8 text-m opacity-90">{stand.stand_ja}</div>
+        <div className="stand-picture-container relative mb-4 h-64 w-52">
+          <Image
+            className="rendering-pixelated rounded drop-shadow-2xl"
+            src={`${stand.stand_images[0]}`}
+            alt={`Picture of ${stand.stand}`}
+            layout="fill"
+            objectFit="contain"
+            placeholder="blur"
+            blurDataURL={`eZP%CbIU.Ax]RO%LWVa}ofof.9ofIAV@WBxuoekCR+WBtRjuROa|tS`}
+          />
+        </div>
+        <button
+          className="rounded-full border bg-slate-50  py-1 px-8 text-black hover:bg-slate-200"
+          onClick={handleOpClick}
+        >
+          OP
+        </button>
+      </div>
+    );
+  }
 
   return (
     <>
@@ -33,46 +70,20 @@ const Home: NextPage = () => {
       <div className="m-auto flex h-screen max-w-screen-sm flex-col justify-center gap-6">
         <div className="justify-right absolute top-0 right-0 flex flex-col p-4">
           <div className="title text-center text-4xl">OP-T3</div>
-          {/* <img className="w-6" src={menacing.src} alt="" /> */}
         </div>
         <div className="text-center text-2xl">Which Stand is more OP?</div>
         <div className="flex items-center justify-around p-8">
-          <div className="flex flex-col items-center">
-            {ids[0]}
-            <div className="stand-name mb-8 text-xl">Star Platinum</div>
-            <div className="stand-picture-container relative mb-4 h-64 w-52">
-              <Image
-                className="rendering-pixelated rounded drop-shadow-2xl"
-                src="https://static.jojowiki.com/images/thumb/c/ca/latest/20200927002609/Star_Platinum_SC_Infobox_Anime.png/200px-Star_Platinum_SC_Infobox_Anime.png"
-                alt="Star"
-                layout="fill"
-                objectFit="contain"
-              />
-            </div>
-            <button
-              className="rounded-full border bg-slate-50  py-1 px-8 text-black hover:bg-slate-200"
-              onClick={handleOpClick}
-            >
-              OP
-            </button>
-          </div>
+          {firstStand.isLoading ? (
+            <h1 >Loading</h1>
+          ) : (
+            <Stand stand={firstStand.data} />
+          )}
           <div className="p-8 italic">or</div>
-          <div className="flex flex-col items-center">
-            {ids[1]}
-            <div className="stand-name mb-8 text-xl">The World</div>
-            <div className="stand-picture-container relative mb-4 h-64 w-52 ">
-              <Image
-                className="rendering-pixelated rounded drop-shadow-2xl"
-                src="https://static.jojowiki.com/images/thumb/7/7e/latest/20191015213103/The_World_Infobox_Anime.png/200px-The_World_Infobox_Anime.png"
-                alt="World"
-                layout="fill"
-                objectFit="contain"
-              />
-            </div>
-            <button className="rounded-full border bg-slate-50  py-1 px-8 text-black hover:bg-slate-200">
-              OP
-            </button>
-          </div>
+          {secondStand.isLoading ? (
+            <h1>Loading</h1>
+          ) : (
+            <Stand stand={secondStand.data} />
+          )}
         </div>
       </div>
     </>

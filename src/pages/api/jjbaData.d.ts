@@ -1,11 +1,9 @@
 ﻿export interface JJBAData {
-  "Stardust Crusaders": Stand[];
-  "Diamond is Unbreakable": Stand[];
-  "Vento Aureo": Stand[];
-  "Stone Ocean": Stand[];
+  "data": Stand[];
 }
 
 export interface Stand {
+  id: number;
   reference_url: string;
   season: string;
   type: string[];

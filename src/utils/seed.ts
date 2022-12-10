@@ -3,7 +3,6 @@ import fs from "fs";
 const jsonBlob = fs.readFileSync("./src/pages/api/data/all_data.json", "utf-8");
 
 const jsonObj = JSON.parse(jsonBlob);
-console.log(Object.keys(jsonObj.data).length); 
 
 const load = async () => {
     try {
