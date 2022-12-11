@@ -3,19 +3,16 @@ import jojoLogo from "../../../public/jjba_pixel_logo.png";
 import Image from "next/legacy/image";
 import infoIcon from "../../../public/info_icon.png";
 import { useState } from "react";
-const handleOpClick = (e: React.MouseEvent<HTMLButtonElement>) => {
-  console.log("Clicked!", e);
-};
 
 export const Stand = (props: { stand: FormattedStand[] }) => {
   const [moreInfoSelected, setMoreInfoSelected] = useState(false);
+
   const stand = props.stand[0];
-  console.log("props", props);
-  console.log(stand);
+
   const handleInfoClick = () => {
     setMoreInfoSelected(!moreInfoSelected);
-    console.log(moreInfoSelected);
   };
+
   const handleBgClick = () => {
     if (!moreInfoSelected) {
       return;
@@ -24,8 +21,11 @@ export const Stand = (props: { stand: FormattedStand[] }) => {
     setMoreInfoSelected(!moreInfoSelected);
   };
 
-  const TypePills = (types: string[]) => {
-    console.log(types);
+  const handleOpClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    console.log("Clicked!", e);
+  };
+
+  const TypePills = (types: (string | undefined)[]) => {
     return types.map((type, key) => {
       if (!type) {
         return;
@@ -33,7 +33,7 @@ export const Stand = (props: { stand: FormattedStand[] }) => {
       return (
         <span
           key={key}
-          className="m-1 inline-block whitespace-nowrap rounded-full bg-blue-400 py-1 px-2.5 text-center align-baseline text-s font-bold leading-none text-white"
+          className="text-s m-1 inline-block whitespace-nowrap rounded-full bg-blue-400 py-1 px-2.5 text-center align-baseline font-bold leading-none text-white"
         >
           {type}
         </span>
@@ -51,7 +51,7 @@ export const Stand = (props: { stand: FormattedStand[] }) => {
           {stand?.name}
           <button onClick={handleInfoClick} className="relative top-1 ml-2">
             <Image
-              className="rendering-pixelated invert drop-shadow-2xl"
+              className="rendering-pixelated drop-shadow-2xl invert"
               src={`${infoIcon.src}`}
               alt={`Icon for more information about ${stand?.name}`}
               width="20"

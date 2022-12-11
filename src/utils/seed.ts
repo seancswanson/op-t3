@@ -35,7 +35,6 @@ const load = async () => {
             data: formattedStandData
         })
         console.log(formattedStandData)
-        console.log('try')
     } catch (e) {
         console.error(e)
         process.exit(1)
