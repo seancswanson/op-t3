@@ -1,5 +1,5 @@
 import fs from "fs";
-import { FormattedStand, Stand } from "../pages/api/jjbaData";
+import type { FormattedStand, Stand } from "../pages/api/jjbaData";
 import { prisma } from "../utils/prisma";
 
 const load = async () => {

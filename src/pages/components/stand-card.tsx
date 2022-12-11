@@ -1,10 +1,10 @@
-import { FormattedStand } from "../api/jjbaData";
 import jojoLogo from "../../../public/jjba_pixel_logo.png";
 import Image from "next/legacy/image";
 import infoIcon from "../../../public/info_icon.png";
 import { useState } from "react";
+import { Stand } from "@prisma/client";
 
-export const Stand = (props: { stand: FormattedStand[] }) => {
+export const StandComponent = (props: { stand: Stand[] }) => {
   const [moreInfoSelected, setMoreInfoSelected] = useState(false);
 
   const stand = props.stand[0];
@@ -25,7 +25,7 @@ export const Stand = (props: { stand: FormattedStand[] }) => {
     console.log("Clicked!", e);
   };
 
-  const TypePills = (types: (string | undefined)[]) => {
+  const TypePills = (types: (string | null | undefined)[]) => {
     return types.map((type, key) => {
       if (!type) {
         return;

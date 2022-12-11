@@ -6,10 +6,7 @@ import { signIn, signOut, useSession } from "next-auth/react";
 import { trpc } from "../utils/trpc";
 import { getOptionsForVote } from "../utils/getRandomStand";
 import { useEffect, useState } from "react";
-import type { FormattedStand } from "./api/jjbaData";
-import data from "../pages/api/data/all_data.json";
-import jojoLogo from "../../public/jjba_pixel_logo.png";
-import { Stand } from "./components/stand-card";
+import { StandComponent } from "./components/stand-card";
 import Link from "next/link";
 
 const Home: NextPage = () => {
@@ -23,9 +20,7 @@ const Home: NextPage = () => {
 
   console.log(...ids);
 
-  // @ts-ignore
   const firstStand = trpc.data.getStandById.useQuery({ id: first });
-  // @ts-ignore
   const secondStand = trpc.data.getStandById.useQuery({ id: second });
 
   if (!firstStand.data || !secondStand.data ) return <div>Loading...</div>;
@@ -37,7 +32,6 @@ const Home: NextPage = () => {
         <meta name="description" content="Voting page of the most OP Stands." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="m-auto flex h-screen max-w-screen-sm flex-col justify-center gap-6">
         <header className="justify-right absolute top-0 right-0 flex flex-col p-4">
           <div className="title border-2 text-center text-4xl">OP-T3</div>
           <div className="title text-right text-4xl">
@@ -47,11 +41,12 @@ const Home: NextPage = () => {
             <Link href="rankings">Rankings</Link>
           </div>
         </header>
+      <div className="m-auto flex h-screen max-w-screen-sm flex-col justify-center gap-6">
         <div className="text-center text-2xl">Which Stand is more OP?</div>
         <div className="flex items-center justify-around p-8">
-          <Stand stand={firstStand.data} />
+          <StandComponent stand={firstStand.data} />
           <div className="p-8 italic">or</div>
-          <Stand stand={secondStand.data} />
+          <StandComponent stand={secondStand.data} />
         </div>
       </div>
     </>
