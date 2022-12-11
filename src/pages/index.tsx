@@ -6,7 +6,7 @@ import { signIn, signOut, useSession } from "next-auth/react";
 import { trpc } from "../utils/trpc";
 import { getOptionsForVote } from "../utils/getRandomStand";
 import { useEffect, useState } from "react";
-import { StandComponent } from "./components/stand-card";
+import { StandComponent } from "../components/stand-card";
 import Link from "next/link";
 
 const Home: NextPage = () => {

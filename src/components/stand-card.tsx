@@ -1,6 +1,6 @@
-import jojoLogo from "../../../public/jjba_pixel_logo.png";
+import jojoLogo from "../../public/jjba_pixel_logo.png";
 import Image from "next/legacy/image";
-import infoIcon from "../../../public/info_icon.png";
+import infoIcon from "../../public/info_icon.png";
 import { useState } from "react";
 import { Stand } from "@prisma/client";
 
