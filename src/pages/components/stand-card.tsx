@@ -48,12 +48,12 @@ export const Stand = (props: { stand: FormattedStand[] }) => {
         onClick={handleBgClick}
       >
         <div className="stand-name mb-8 flex text-xl">
-          {stand.name}
+          {stand?.name}
           <button onClick={handleInfoClick} className="relative top-1 ml-2">
             <Image
-              className="rendering-pixelated drop-shadow-2xl"
+              className="rendering-pixelated invert drop-shadow-2xl"
               src={`${infoIcon.src}`}
-              alt={`Icon for more information about ${stand.name}`}
+              alt={`Icon for more information about ${stand?.name}`}
               width="20"
               height="20"
             />

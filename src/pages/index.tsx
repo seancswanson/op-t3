@@ -37,9 +37,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="m-auto flex h-screen max-w-screen-sm flex-col justify-center gap-6">
-        <div className="justify-right absolute top-0 right-0 flex flex-col p-4">
-          <div className="title text-center text-4xl">OP-T3</div>
-        </div>
+        <header className="justify-right absolute top-0 right-0 flex flex-col p-4">
+          <div className="title text-center text-4xl border-2">OP-T3</div>
+          <div className="title text-right text-4xl"><a href="'/vote">Vote</a></div>
+          <div className="title text-right text-4xl"><a href="'/rankings">Rankings</a></div>
+        </header>
         <div className="text-center text-2xl">Which Stand is more OP?</div>
         <div className="flex items-center justify-around p-8">
           {firstStand.isLoading ? (
