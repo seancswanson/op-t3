@@ -1,4 +1,5 @@
-{ "data": [
+{
+  "data": [
     {
       "id": 1,
       "reference_url": "https://jojowiki.com/Star_Platinum",
@@ -1093,12 +1094,7 @@
       "id": 58,
       "reference_url": "https://jojowiki.com/Highway_Star",
       "season": "Diamond is Unbreakable",
-      "type": [
-        "Long-Range",
-        "Automatic",
-        "Reconnaissance",
-        "Natural Humanoid"
-      ],
+      "type": ["Long-Range", "Automatic", "Reconnaissance", "Natural Humanoid"],
       "stand": "Highway Star",
       "stand_ja": "ハイウェイ・スター",
       "stand_images": [
@@ -1944,7 +1940,9 @@
       ],
       "stand": "Made in Heaven",
       "stand_ja": "メイド・イン・ヘブン",
-      "stand_images": ["https://static.jojowiki.com/images/thumb/a/a4/latest/20221205184222/Made_in_Heaven_Infobox_Anime.png/400px-Made_in_Heaven_Infobox_Anime.png"],
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/a/a4/latest/20221205184222/Made_in_Heaven_Infobox_Anime.png/400px-Made_in_Heaven_Infobox_Anime.png"
+      ],
       "user": "Enrico Pucci",
       "gender": "Male",
       "hair_color": "White ",
@@ -2133,7 +2131,7 @@
       "stand": "Yo-Yo Ma",
       "stand_ja": "ヨーヨーマッ",
       "stand_images": [
-        "https://static.jojowiki.com/images/thumb/5/5e/latest/20220902171846/Yo-Yo_Ma_Infobox_Anime.jpg/400px-Yo-Yo_Ma_Infobox_Anime.jpg"
+        "https://static.jojowiki.com/images/thumb/e/ed/latest/20221125230532/Yo-Yo_Ma_Infobox_Anime_transparent.png/400px-Yo-Yo_Ma_Infobox_Anime_transparent.png"
       ],
       "user": "D an G",
       "gender": "Male",
@@ -2186,7 +2184,9 @@
       "type": ["Range Irrelevant", "Psychological Assault", "Phenomenon"],
       "stand": "Bohemian Rhapsody",
       "stand_ja": "ボヘミアン・ラプソディー (自由人の狂想曲)",
-      "stand_images": ["https://static.jojowiki.com/images/thumb/b/b4/latest/20221203195202/Bohemian_Rhapsody_Infobox_Anime.png/400px-Bohemian_Rhapsody_Infobox_Anime.png"],
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/b/b4/latest/20221203195202/Bohemian_Rhapsody_Infobox_Anime.png/400px-Bohemian_Rhapsody_Infobox_Anime.png"
+      ],
       "user": "Ungalo",
       "gender": "Male",
       "hair_color": "Unknown",
@@ -2202,7 +2202,9 @@
       "type": ["Close-Range", "Natural Non-Humanoid"],
       "stand": "Sky High",
       "stand_ja": "スカイ・ハイ",
-      "stand_images": ["https://static.jojowiki.com/images/thumb/6/6b/latest/20221201105503/Sky_High_Render_Appearance_Anime.png/400px-Sky_High_Render_Appearance_Anime.png"],
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/6/6b/latest/20221201105503/Sky_High_Render_Appearance_Anime.png/400px-Sky_High_Render_Appearance_Anime.png"
+      ],
       "user": "Rikiel",
       "gender": "Male",
       "hair_color": "Pink & Black ",
@@ -2218,7 +2220,9 @@
       "type": ["Close-Range", "Psychological Assault", "Artificial Humanoid"],
       "stand": "Under World",
       "stand_ja": "アンダー・ワールド",
-      "stand_images": ["https://static.wikia.nocookie.net/jjba/images/b/bb/Underworld_Anime.png/revision/latest/scale-to-width-down/284?cb=20221202212314"],
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/3/3d/latest/20221203235242/Under_World_Infobox_Anime.png/400px-Under_World_Infobox_Anime.png"
+      ],
       "user": "Donatello Versus",
       "gender": "Male",
       "hair_color": "Blond with a black line ",
