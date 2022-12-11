@@ -1,12 +1,11 @@
 import fs from "fs";
-import type { FormattedStand, Stand } from "../pages/api/jjbaData";
 import { prisma } from "../utils/prisma";
 
 const load = async () => {
     try {
         const jsonBlob = fs.readFileSync("./src/pages/api/data/all_data.json", "utf-8");
         const jsonObj = JSON.parse(jsonBlob);
-        const formattedStandData: FormattedStand = jsonObj.data.map((stand: Stand) => {
+        const formattedStandData: any = jsonObj.data.map((stand: any) => {
             return {
                 id: stand.id,
                 name: stand.stand,
