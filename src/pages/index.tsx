@@ -8,6 +8,7 @@ import { getOptionsForVote } from "../utils/getRandomStand";
 import { useEffect, useState } from "react";
 import { StandComponent } from "../components/stand-card";
 import Link from "next/link";
+import { StandPlaceholderComponent } from "../components/stand-card-placeholder";
 
 const Home: NextPage = () => {
   const [ids, setIds] = useState([1, 2]);
@@ -22,8 +23,7 @@ const Home: NextPage = () => {
 
   const firstStand = trpc.data.getStandById.useQuery({ id: first });
   const secondStand = trpc.data.getStandById.useQuery({ id: second });
-
-  if (!firstStand.data || !secondStand.data ) return <div>Loading...</div>;
+  const standsHaveData = firstStand.data && secondStand.data;
 
   return (
     <>
@@ -32,21 +32,21 @@ const Home: NextPage = () => {
         <meta name="description" content="Voting page of the most OP Stands." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <header className="justify-right absolute top-0 right-0 flex flex-col p-4">
-          <div className="title border-2 text-center text-4xl">OP-T3</div>
-          <div className="title text-right text-4xl">
-            <Link href="/">Vote</Link>
-          </div>
-          <div className="title text-right text-4xl">
-            <Link href="rankings">Rankings</Link>
-          </div>
-        </header>
-      <div className="m-auto flex h-screen max-w-screen-sm flex-col justify-center gap-6">
+      <header className="justify-right absolute top-0 right-0 flex flex-col p-4">
+        <div className="title border-2 text-center text-4xl">OP-T3</div>
+        <div className="title text-right text-4xl">
+          <Link href="/">Vote</Link>
+        </div>
+        <div className="title text-right text-4xl">
+          <Link href="rankings">Rankings</Link>
+        </div>
+      </header>
+      <div className="m-auto flex h-screen max-w-screen-sm flex-col justify-center gap-6 ">
         <div className="text-center text-2xl">Which Stand is more OP?</div>
         <div className="flex items-center justify-around p-8">
-          <StandComponent stand={firstStand.data} />
+          {standsHaveData ? <StandComponent stand={firstStand.data} /> : <StandPlaceholderComponent /> }
           <div className="p-8 italic">or</div>
-          <StandComponent stand={secondStand.data} />
+          {standsHaveData ? <StandComponent stand={secondStand.data} /> : <StandPlaceholderComponent /> }
         </div>
       </div>
     </>

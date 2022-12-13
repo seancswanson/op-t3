@@ -17,8 +17,11 @@ module.exports = {
   theme: {
     extend: {
       scale: {
-        'flip': '-1'
-      }
+        flip: "-1",
+      },
+      backgroundImage: {
+        "diamond-bg": "url('../../public/diamond-bg.png')",
+      },
     },
   },
   plugins: [backfaceVisibility],

@@ -3,9 +3,11 @@ import Image from "next/legacy/image";
 import infoIcon from "../../public/info_icon.png";
 import { useState } from "react";
 import { Stand } from "@prisma/client";
+import * as wanakana from "wanakana";
 
-export const StandComponent = (props: { stand: Stand[] }) => {
-  const [moreInfoSelected, setMoreInfoSelected] = useState(false);
+export const StandComponent = ( props: { stand: Stand[] }) => {
+    const [textValue, setValue] = useState("");
+    const [moreInfoSelected, setMoreInfoSelected] = useState(false);
 
   const stand = props.stand[0];
 
@@ -24,6 +26,16 @@ export const StandComponent = (props: { stand: Stand[] }) => {
   const handleOpClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     console.log("Clicked!", e);
   };
+
+  const romajiText = (value: string) => {
+    const romaji = wanakana.toRomaji(value || "text");
+    const fullRomaji = wanakana.tokenize(romaji)
+    const formattedRomaji = fullRomaji.map((fragment) => {
+      return fragment === "/" ? "" : fragment;
+    }).join(' ');
+
+    return formattedRomaji;
+  }
 
   const TypePills = (types: (string | null | undefined)[]) => {
     return types.map((type, key) => {
@@ -92,6 +104,9 @@ export const StandComponent = (props: { stand: Stand[] }) => {
           <div className="p-x-1 mb-1 text-xl underline">Name</div>
           <div>[US] {stand?.name}</div>
           <div>[JP] {stand?.name_jp}</div>
+          <div>
+            {romajiText(stand?.name_jp || "romaji")}
+          </div>
         </div>
         <div className="user mb-3 text-center">
           <div className="p-x-1 mb-1 text-xl underline">Stand User</div>
