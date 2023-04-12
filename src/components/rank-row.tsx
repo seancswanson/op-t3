@@ -15,7 +15,7 @@ interface Props {
 
 export const RankRow = (props: Props) => {
   const synth = window.speechSynthesis;
-  const handleSpeakClick = (e: MouseEvent<HTMLButtonElement>) => {
+  const handleSpeakClick = () => {
     const utterance = new SpeechSynthesisUtterance(
       romajiText(props.stand?.name || "No name")
     );
@@ -31,7 +31,7 @@ export const RankRow = (props: Props) => {
     <div
       className="rank-row flex justify-between border border-b-0"
       key={props.i}
-      onClick={() => handleSpeakClick(props.stand)}
+      onClick={handleSpeakClick}
     >
       <div className="left flex">
         <div className="rank self-start border-2 bg-stone-200 px-2 text-black">
