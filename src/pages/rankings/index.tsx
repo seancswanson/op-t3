@@ -8,11 +8,15 @@ import Link from "next/link";
 import { trpc } from "../../utils/trpc";
 import { Stand } from "@prisma/client";
 import { romajiText } from "../../utils/handlers";
+import { RankRow } from "../../components/rank-row";
+import { RankTile } from "../../components/rank-tile";
 
 const Ranking: NextPage = () => {
   const allStands = trpc.data.getAllStands.useQuery();
   const allStandsLoaded = allStands.data;
+  
   const [isGalleryView, setIsGalleryView] = useState(false);
+  const [moreInfoSelected, setMoreInfoSelected] = useState(false);
 
   const handleSpeakClick = (stand: Stand) => {
     const synth = window.speechSynthesis;
@@ -28,6 +32,9 @@ const Ranking: NextPage = () => {
     synth.speak(utterance);
   };
 
+  const handleInfoClick = () => {
+    setMoreInfoSelected(!moreInfoSelected);
+  };
 
   if (!allStandsLoaded) {
     return <h1>Loading...</h1>;
@@ -37,74 +44,35 @@ const Ranking: NextPage = () => {
 
   const galleryView = () => {
     return (
-      <div className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4"
-      >
-      {allStands.data.map((stand, i) => {
-        return (
-          <div
-            className="relative flex flex-col items-center border-2 border-gray-700"
-            key={i}
-            onClick={() => handleSpeakClick(stand)}
-          >
-            <div className="rank self-start border-2 bg-stone-200 px-2 text-black">
-              {stand.id}
-            </div>
-            <div className="stand-picture-container relative mb-2 h-24 w-24 rounded-full border-2 border-gray-700">
-              <Image
-                className="rendering-pixelated rounded-full"
-                src={`${stand?.stand_image_0 ?? jojoLogo.src}`}
-                alt={`Picture of ${stand?.name}`}
-                layout="fill"
-                objectFit="contain"
-                priority={true}
-              />
-            </div>
-            <div className="name text-center text-2xl">{stand.name}</div>
-            <div className="ratio text-center text-2xl">99.9%</div>
-          </div>
-        );
-      })}
-    </div>
-  );
-};
-
-const rankRow = (stand: Stand, i: number) => {
-  return (
-    <div
-      className="rank-row flex justify-between border border-b-0"
-      key={i}
-      onClick={() => handleSpeakClick(stand)}
-    >
-      <div className="left flex">
-        <div className="rank self-start border-2 bg-stone-200 px-2 text-black">
-          {stand.id}
-        </div>
-        <div className="stand flex items-center p-2 py-4">
-          <div className="stand-picture-container relative h-16 w-16 rounded-full border-2 border-gray-700">
-            <Image
-              className="rendering-pixelated rounded-full"
-              src={`${stand?.stand_image_0 ?? jojoLogo.src}`}
-              alt={`Picture of ${stand?.name}`}
-              layout="fill"
-              objectFit="contain"
-              priority={true}
+      <div className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4">
+        {allStands.data.map((stand, i) => {
+          return (
+            <RankTile
+              stand={stand}
+              i={i}
+              key={i}
+              moreInfoSelected={moreInfoSelected}
+              setMoreInfoSelected={setMoreInfoSelected}
             />
-          </div>
-          <div className="name px-4 text-2xl">{stand.name}</div>
-        </div>
+          );
+        })}
       </div>
-      <div className="right flex items-center px-4">
-        <div className="ratio text-2xl">99.9%</div>
-      </div>
-    </div>
-  );
-};
+    );
+  };
 
   const rowView = () => {
     return (
       <div className="rankings-container">
         {allStands.data.map((stand, i) => {
-          return rankRow(stand, i);
+          return (
+            <RankRow
+              stand={stand}
+              i={i}
+              key={i}
+              moreInfoSelected={moreInfoSelected}
+              setMoreInfoSelected={setMoreInfoSelected}
+            />
+          );
         })}
       </div>
     );
