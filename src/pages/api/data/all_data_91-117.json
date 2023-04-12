@@ -1,0 +1,522 @@
+{
+  "data": [
+    {
+      "id": 91,
+      "reference_url": "https://jojowiki.com/Rolling_Stones",
+      "season": "Vento Aureo",
+      "type": ["Automatic", "Foresight", "Natural Non-Humanoid"],
+      "stand": "Rolling Stones",
+      "stand_ja": "ローリング・ストーン(ズ)",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/c/c5/latest/20191015214244/Rolling_Stones_Infobox_Anime.png/400px-Rolling_Stones_Infobox_Anime.png"
+      ],
+      "user": "Scolippi",
+      "gender": "Male",
+      "hair_color": "Purple ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/5/5d/latest/20191015220011/Scolippi_Infobox_Anime.png/400px-Scolippi_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 92,
+      "reference_url": "https://jojowiki.com/Stone_Free",
+      "season": "Stone Ocean",
+      "type": [
+        "Close-Range",
+        "Reconnaissance",
+        "Natural Humanoid",
+        "Integrated"
+      ],
+      "stand": "Stone Free",
+      "stand_ja": "ストーン・フリーＳ・Ｆ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/0/03/latest/20220112185153/Stone_Free_Infobox_Anime.png"
+      ],
+      "user": "Jolyne Cujoh",
+      "gender": "Female",
+      "hair_color": "Dark Blue & Yellow Green ",
+      "eye_color": "Chartreuse ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/0/03/latest/20220905170256/Jolyne_Cujoh_Infobox_Anime.png/400px-Jolyne_Cujoh_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 93,
+      "reference_url": "https://jojowiki.com/Star_Platinum",
+      "season": "Stone Ocean",
+      "type": ["Close-Range", "Reconnaissance", "Natural Humanoid"],
+      "stand": "Star Platinum",
+      "stand_ja": "スタープラチナ（星の白金）",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/c/c1/latest/20211204230516/Star_Platinum_SO_Infobox_Anime.png/400px-Star_Platinum_SO_Infobox_Anime.png"
+      ],
+      "user": "Jotaro Kujo",
+      "gender": "Male",
+      "hair_color": "Black ",
+      "eye_color": "Slightly Green",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/3/3a/latest/20210430072039/Jotaro_SC_Infobox_Anime.png/400px-Jotaro_SC_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/c/ca/latest/20210220231620/Jotaro_DU_Infobox_Anime.PNG/400px-Jotaro_DU_Infobox_Anime.PNG",
+        "https://static.jojowiki.com/images/thumb/5/5b/latest/20210220160115/Jotaro_Kujo_VA_Infobox_Anime.png/400px-Jotaro_Kujo_VA_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/d/d0/latest/20211203094445/Jotaro_SO_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 94,
+      "reference_url": "https://jojowiki.com/Kiss",
+      "season": "Stone Ocean",
+      "type": ["Close-Range", "Natural Humanoid"],
+      "stand": "Kiss",
+      "stand_ja": "キッス",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/2/24/latest/20211109023224/Kiss_Infobox_Anime.png/400px-Kiss_Infobox_Anime.png"
+      ],
+      "user": "Ermes Costello",
+      "gender": "Female",
+      "hair_color": "Black ",
+      "eye_color": "Yellow ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/1/1f/latest/20220304040153/Ermes_Costello_Infobox_Anime.png/400px-Ermes_Costello_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 95,
+      "reference_url": "https://jojowiki.com/Burning_Down_the_House",
+      "season": "Stone Ocean",
+      "type": ["Range Irrelevant", "Materialized", "Phenomenon"],
+      "stand": "Burning Down the House",
+      "stand_ja": "バーニング・ダウン・ザ・ハウス",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/2/20/latest/20220919210706/BDtH_Infobox_Anime.png/400px-BDtH_Infobox_Anime.png"
+      ],
+      "user": "Emporio Alnino",
+      "gender": "Male",
+      "hair_color": "Blond ",
+      "eye_color": "Gold ",
+      "user_images": [
+        "https://static.jojowiki.com/images/2/26/latest/20220718124851/Emporio_Alnino_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 96,
+      "reference_url": "https://jojowiki.com/Foo_Fighters_(Stand)",
+      "season": "Stone Ocean",
+      "type": ["Range Irrelevant", "Phenomenon", "Shared"],
+      "stand": "Foo Fighters",
+      "stand_ja": "フー・ファイターズ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/3/37/latest/20220902190331/Foo_Fighters_Stand_Anime_Infobox.png/400px-Foo_Fighters_Stand_Anime_Infobox.png",
+        "https://static.jojowiki.com/images/5/53/latest/20220329200821/Foo_Fighters_Plankton_Anime_Infobox.png"
+      ],
+      "user": "F.F.",
+      "gender": "Female",
+      "hair_color": "Green ",
+      "eye_color": "Brown ",
+      "user_images": [
+        "https://static.jojowiki.com/images/d/de/latest/20211204055511/F.F._Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 97,
+      "reference_url": "https://jojowiki.com/Weather_Report_(Stand)",
+      "season": "Stone Ocean",
+      "type": ["Close-Range", "Artificial Humanoid"],
+      "stand": "Weather Report",
+      "stand_ja": "ウェザー・リポート",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/a/ac/latest/20211204092418/Weather_Report_Stand_Anime_Infobox.png/400px-Weather_Report_Stand_Anime_Infobox.png"
+      ],
+      "user": "Weather Report",
+      "gender": "Male",
+      "hair_color": "White ",
+      "eye_color": "Sky Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/8/8e/latest/20220307143604/Weather_Report_Infobox_Anime.png/400px-Weather_Report_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 98,
+      "reference_url": "https://jojowiki.com/Diver_Down",
+      "season": "Stone Ocean",
+      "type": ["Close-Range", "Artificial Humanoid"],
+      "stand": "Diver Down",
+      "stand_ja": "ダイバー・ダウン",
+      "stand_images": [
+        "https://static.jojowiki.com/images/c/c6/latest/20211112120356/Diver_Down_Anime_Infobox.png"
+      ],
+      "user": "Narciso Anasui",
+      "gender": "Male",
+      "hair_color": "Pink ",
+      "eye_color": "Purple ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/d/d7/latest/20220304035149/Narciso_Anasui_Infobox_Anime.png/400px-Narciso_Anasui_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 99,
+      "reference_url": "https://jojowiki.com/Whitesnake",
+      "season": "Stone Ocean",
+      "type": [
+        "Long-Range",
+        "Psychological Assault",
+        "Natural Humanoid",
+        "Sentient"
+      ],
+      "stand": "Whitesnake",
+      "stand_ja": "ホワイトスネイク",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/9/91/latest/20220608191233/Whitesnake_Infobox_Anime.png/400px-Whitesnake_Infobox_Anime.png"
+      ],
+      "user": "Enrico Pucci",
+      "gender": "Male",
+      "hair_color": "White ",
+      "eye_color": "Black ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/2/2b/latest/20220708032949/Pucci_Infobox_Anime.png/400px-Pucci_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 100,
+      "reference_url": "https://jojowiki.com/C-Moon",
+      "season": "Stone Ocean",
+      "type": ["Long-Range", "Natural Humanoid", "Evolved"],
+      "stand": "C-Moon",
+      "stand_ja": "C-MOON",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/9/92/latest/20221118165914/C-Moon_Infobox_Anime.png/400px-C-Moon_Infobox_Anime.png"
+      ],
+      "user": "Enrico Pucci",
+      "gender": "Male",
+      "hair_color": "White ",
+      "eye_color": "Black ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/2/2b/latest/20220708032949/Pucci_Infobox_Anime.png/400px-Pucci_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 101,
+      "reference_url": "https://jojowiki.com/Made_in_Heaven",
+      "season": "Stone Ocean",
+      "type": [
+        "Close-Range",
+        "Range Irrelevant",
+        "Natural Non-Humanoid",
+        "Evolved"
+      ],
+      "stand": "Made in Heaven",
+      "stand_ja": "メイド・イン・ヘブン",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/a/a4/latest/20221205184222/Made_in_Heaven_Infobox_Anime.png/400px-Made_in_Heaven_Infobox_Anime.png"
+      ],
+      "user": "Enrico Pucci",
+      "gender": "Male",
+      "hair_color": "White ",
+      "eye_color": "Black ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/2/2b/latest/20220708032949/Pucci_Infobox_Anime.png/400px-Pucci_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 102,
+      "reference_url": "https://jojowiki.com/Goo_Goo_Dolls",
+      "season": "Stone Ocean",
+      "type": ["Long-Range", "Artificial Humanoid"],
+      "stand": "Goo Goo Dolls",
+      "stand_ja": "グーグー・ドールズ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/f/f1/latest/20211202072644/Goo_Goo_Dolls_Infobox_Anime.png/400px-Goo_Goo_Dolls_Infobox_Anime.png"
+      ],
+      "user": "Gwess",
+      "gender": "Female",
+      "hair_color": "Black ",
+      "eye_color": "Gray ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/3/3b/latest/20211201171620/Gwess_Infobox_Anime.png/400px-Gwess_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 103,
+      "reference_url": "https://jojowiki.com/Manhattan_Transfer",
+      "season": "Stone Ocean",
+      "type": ["Long-Range", "Reconnaissance", "Artificial Non-Humanoid"],
+      "stand": "Manhattan Transfer",
+      "stand_ja": "マンハッタン・トランスファー",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/b/ba/latest/20211201170744/Manhattan_Transfer_Infobox_Anime.png/400px-Manhattan_Transfer_Infobox_Anime.png"
+      ],
+      "user": "Johngalli A.",
+      "gender": "Male",
+      "hair_color": "Pink ",
+      "eye_color": "White ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/6/6a/latest/20211202072411/Johngalli_A_Infobox_Anime.png/400px-Johngalli_A_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 104,
+      "reference_url": "https://jojowiki.com/Highway_to_Hell",
+      "season": "Stone Ocean",
+      "type": ["Long-Range", "Artificial Non-Humanoid"],
+      "stand": "Highway to Hell",
+      "stand_ja": "ハイウェイ・トゥ・ヘル",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/f/f3/latest/20211201174538/Highway_to_Hell_Infobox_Anime.png/400px-Highway_to_Hell_Infobox_Anime.png"
+      ],
+      "user": "Thunder McQueen",
+      "gender": "Male",
+      "hair_color": "Blond ",
+      "eye_color": "Unknown",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/e/e5/latest/20220327100109/Thunder_McQueen_Infobox_Anime.png/400px-Thunder_McQueen_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 105,
+      "reference_url": "https://jojowiki.com/Marilyn_Manson",
+      "season": "Stone Ocean",
+      "type": [
+        "Long-Range",
+        "Psychological Assault",
+        "Artificial Humanoid",
+        "Automatic"
+      ],
+      "stand": "Marilyn Manson",
+      "stand_ja": "取り立て人 マリリン・マンソン",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/9/9d/latest/20211201173825/Marilyn_Manson_Infobox_Anime.png/400px-Marilyn_Manson_Infobox_Anime.png"
+      ],
+      "user": "Miraschon",
+      "gender": "Female",
+      "hair_color": "Black/Purple ",
+      "eye_color": "Black ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/0/05/latest/20220216143151/Miraschon_Infobox_Anime.png/400px-Miraschon_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 106,
+      "reference_url": "https://jojowiki.com/Jumpin%27_Jack_Flash",
+      "season": "Stone Ocean",
+      "type": ["Close-Range", "Artificial Humanoid"],
+      "stand": "Jumpin' Jack Flash",
+      "stand_ja": "ジャンピン・ジャック・フラッシュ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/1/17/latest/20221030000457/Jumpin%27_Jack_Flash_Infobox_Anime.png/400px-Jumpin%27_Jack_Flash_Infobox_Anime.png"
+      ],
+      "user": "Lang Rangler",
+      "gender": "Male",
+      "hair_color": "Unknown",
+      "eye_color": "Unknown",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/2/20/latest/20211201175558/Lang_Rangler_Infobox_Anime.png/400px-Lang_Rangler_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 107,
+      "reference_url": "https://jojowiki.com/Limp_Bizkit",
+      "season": "Stone Ocean",
+      "type": ["Range Irrelevant", "Phenomenon"],
+      "stand": "Limp Bizkit",
+      "stand_ja": "リンプ・ビズキット",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/9/92/latest/20220906143000/Limp_Bizkit_Infobox_Anime.png/400px-Limp_Bizkit_Infobox_Anime.png"
+      ],
+      "user": "Sports Maxx",
+      "gender": "Male",
+      "hair_color": "Blond ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/f/f6/latest/20220904110323/Sports_Maxx_Infobox_Anime.png/400px-Sports_Maxx_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 108,
+      "reference_url": "https://jojowiki.com/Survivor",
+      "season": "Stone Ocean",
+      "type": [
+        "Automatic",
+        "Psychological Assault",
+        "Natural Non-Humanoid",
+        "Colony"
+      ],
+      "stand": "Survivor",
+      "stand_ja": "サバイバー",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/9/92/latest/20220905144547/Survivor_Infobox_Anime.png/400px-Survivor_Infobox_Anime.png"
+      ],
+      "user": "Mountain Lodge Owner",
+      "gender": "Male",
+      "hair_color": "Unknown",
+      "eye_color": "Unknown",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/a/a5/latest/20220904045114/SO_Ep._15_-61.png/400px-SO_Ep._15_-61.png"
+      ]
+    },
+    {
+      "id": 109,
+      "reference_url": "https://jojowiki.com/Planet_Waves",
+      "season": "Stone Ocean",
+      "type": ["Close-Range", "Natural Humanoid"],
+      "stand": "Planet Waves",
+      "stand_ja": "プラネット・ウェイブス",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/e/ec/latest/20220901101814/Planet_Waves_Infobox_Anime.png/400px-Planet_Waves_Infobox_Anime.png"
+      ],
+      "user": "Viviano Westwood",
+      "gender": "Male",
+      "hair_color": "Black ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/0/0b/latest/20220901090604/Viviano_Westwood_Anime_Infobox.png/400px-Viviano_Westwood_Anime_Infobox.png"
+      ]
+    },
+    {
+      "id": 110,
+      "reference_url": "https://jojowiki.com/Dragon%27s_Dream",
+      "season": "Stone Ocean",
+      "type": ["Automatic", "Artificial Non-Humanoid", "Sentient"],
+      "stand": "Dragon's Dream",
+      "stand_ja": "ドラゴンズ・ドリーム（龍の夢）",
+      "stand_images": [
+        "https://static.jojowiki.com/images/2/2e/latest/20221002121518/Dragon%27s_Dream_Infobox_Anime.png"
+      ],
+      "user": "Kenzou",
+      "gender": "Male",
+      "hair_color": "Gray ",
+      "eye_color": "Orange ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/7/74/latest/20220912113033/Kenzou_Infobox_Anime.png/400px-Kenzou_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 111,
+      "reference_url": "https://jojowiki.com/Yo-Yo_Ma",
+      "season": "Stone Ocean",
+      "type": ["Automatic", "Natural Humanoid", "Sentient"],
+      "stand": "Yo-Yo Ma",
+      "stand_ja": "ヨーヨーマッ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/e/ed/latest/20221125230532/Yo-Yo_Ma_Infobox_Anime_transparent.png/400px-Yo-Yo_Ma_Infobox_Anime_transparent.png"
+      ],
+      "user": "D an G",
+      "gender": "Male",
+      "hair_color": "Unknown",
+      "eye_color": "Unknown",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/e/ec/latest/20220901181504/D_an_G_Infobox_Anime.png/400px-D_an_G_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 112,
+      "reference_url": "https://jojowiki.com/Green,_Green_Grass_of_Home",
+      "season": "Stone Ocean",
+      "type": ["Close-Range", "Natural Humanoid"],
+      "stand": "Green, Green Grass of Home",
+      "stand_ja": "グリーン・グリーン・グラス・オブ・ホーム",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/f/f9/latest/20220914214335/G3oH_Infobox_Anime.png/400px-G3oH_Infobox_Anime.png"
+      ],
+      "user": "The Green Baby",
+      "gender": "Male",
+      "hair_color": "Unknown",
+      "eye_color": "Red",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/3/3d/latest/20220903163055/The_Green_Baby_Anime_Infobox.png/400px-The_Green_Baby_Anime_Infobox.png"
+      ]
+    },
+    {
+      "id": 113,
+      "reference_url": "https://jojowiki.com/Jail_House_Lock",
+      "season": "Stone Ocean",
+      "type": ["Close-Range", "Psychological Assault", "Artificial Humanoid"],
+      "stand": "Jail House Lock",
+      "stand_ja": "ジェイル・ハウス・ロック（JAIL HOUSE LOCK）",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/6/6f/latest/20220902181930/Jail_House_Lock_Infobox_Anime.png/400px-Jail_House_Lock_Infobox_Anime.png"
+      ],
+      "user": "Miuccia Miuller",
+      "gender": "Female",
+      "hair_color": "Blonde",
+      "eye_color": "Dark Green ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/4/40/latest/20221108063916/Miuccia_Miuller_Infobox_Anime.png/400px-Miuccia_Miuller_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 114,
+      "reference_url": "https://jojowiki.com/Bohemian_Rhapsody",
+      "season": "Stone Ocean",
+      "type": ["Range Irrelevant", "Psychological Assault", "Phenomenon"],
+      "stand": "Bohemian Rhapsody",
+      "stand_ja": "ボヘミアン・ラプソディー (自由人の狂想曲)",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/b/b4/latest/20221203195202/Bohemian_Rhapsody_Infobox_Anime.png/400px-Bohemian_Rhapsody_Infobox_Anime.png"
+      ],
+      "user": "Ungalo",
+      "gender": "Male",
+      "hair_color": "Unknown",
+      "eye_color": "Black ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/e/e1/latest/20221118163917/Ungalo_Anime_Infobox.png/400px-Ungalo_Anime_Infobox.png"
+      ]
+    },
+    {
+      "id": 115,
+      "reference_url": "https://jojowiki.com/Sky_High",
+      "season": "Stone Ocean",
+      "type": ["Close-Range", "Natural Non-Humanoid"],
+      "stand": "Sky High",
+      "stand_ja": "スカイ・ハイ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/6/6b/latest/20221201105503/Sky_High_Render_Appearance_Anime.png/400px-Sky_High_Render_Appearance_Anime.png"
+      ],
+      "user": "Rikiel",
+      "gender": "Male",
+      "hair_color": "Pink & Black ",
+      "eye_color": "Gold ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/e/ea/latest/20221118165215/Rikiel_Infobox_Anime.png/400px-Rikiel_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 116,
+      "reference_url": "https://jojowiki.com/Under_World",
+      "season": "Stone Ocean",
+      "type": ["Close-Range", "Psychological Assault", "Artificial Humanoid"],
+      "stand": "Under World",
+      "stand_ja": "アンダー・ワールド",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/3/3d/latest/20221203235242/Under_World_Infobox_Anime.png/400px-Under_World_Infobox_Anime.png"
+      ],
+      "user": "Donatello Versus",
+      "gender": "Male",
+      "hair_color": "Blond with a black line ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/0/07/latest/20221118164504/Donatello_Versus_Anime_Infobox.png/400px-Donatello_Versus_Anime_Infobox.png"
+      ]
+    },
+    {
+      "id": 117,
+      "reference_url": "https://jojowiki.com/The_World",
+      "season": "Stone Ocean",
+      "type": ["Close-Range", "Range Irrelevant", "Natural Humanoid"],
+      "stand": "The World",
+      "stand_ja": "ザ・ワールド（世界）",
+      "stand_images": [
+        "https://static.jojowiki.com/images/7/7e/latest/20221004175724/The_World_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/1/16/latest/20220908002846/The_World_SO_Infobox_Anime.png/400px-The_World_SO_Infobox_Anime.png"
+      ],
+      "user": "Dio Brando",
+      "gender": "Male",
+      "hair_color": "Blond",
+      "eye_color": "Gold",
+      "user_images": [
+        "https://static.jojowiki.com/images/3/37/latest/20210315113740/Dio_PB_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/0/0a/latest/20210424101455/DIO_Normal_SC_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/6/6f/latest/20220901084415/DIO_SO_Infobox_Anime.png"
+      ]
+    }
+  ]
+}

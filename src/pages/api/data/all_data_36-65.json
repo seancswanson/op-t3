@@ -1,0 +1,599 @@
+{
+  "data": [
+    {
+      "id": 36,
+      "reference_url": "https://jojowiki.com/Star_Platinum",
+      "season": "Diamond is Unbreakable",
+      "type": ["Close-Range", "Reconnaissance", "Natural Humanoid"],
+      "stand": "Star Platinum",
+      "stand_ja": "スタープラチナ（星の白金）",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/9/94/latest/20210614002201/Star_Platinum_DU_Infobox_Anime.png/400px-Star_Platinum_DU_Infobox_Anime.png"
+      ],
+      "user": "Jotaro Kujo",
+      "gender": "Male",
+      "hair_color": "Black ",
+      "eye_color": "Slightly Green",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/3/3a/latest/20210430072039/Jotaro_SC_Infobox_Anime.png/400px-Jotaro_SC_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/c/ca/latest/20210220231620/Jotaro_DU_Infobox_Anime.PNG/400px-Jotaro_DU_Infobox_Anime.PNG",
+        "https://static.jojowiki.com/images/thumb/5/5b/latest/20210220160115/Jotaro_Kujo_VA_Infobox_Anime.png/400px-Jotaro_Kujo_VA_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/d/d0/latest/20211203094445/Jotaro_SO_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 37,
+      "reference_url": "https://jojowiki.com/The_Hand",
+      "season": "Diamond is Unbreakable",
+      "type": ["Close-Range", "Artificial Humanoid"],
+      "stand": "The Hand",
+      "stand_ja": "ザ・ハンド（手）",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/a/ae/latest/20210111150120/The_Hand_Infobox_Anime.png/400px-The_Hand_Infobox_Anime.png"
+      ],
+      "user": "Okuyasu Nijimura",
+      "gender": "Male",
+      "hair_color": "Black & Grey ",
+      "eye_color": "Light Purple ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/8/80/latest/20210907213301/Okuyasu_Nijimura_Infobox_Anime.png/400px-Okuyasu_Nijimura_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 38,
+      "reference_url": "https://jojowiki.com/Echoes",
+      "season": "Diamond is Unbreakable",
+      "type": [
+        "Long-Range",
+        "Close-Range",
+        "Psychological Assault",
+        "Natural Non-Humanoid",
+        "Artificial Humanoid",
+        "Sentient",
+        "Evolved"
+      ],
+      "stand": "Echoes",
+      "stand_ja": "エコーズ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/d/dc/latest/20210424210829/Echoes_ACT1_DU_Infobox_Anime.png/400px-Echoes_ACT1_DU_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/6/69/latest/20220429134636/Echoes_ACT2_DU_Infobox_Anime.png/400px-Echoes_ACT2_DU_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/8/8e/latest/20210422175130/Echoes_ACT3_DU_Infobox_Anime.png/400px-Echoes_ACT3_DU_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/6/6d/latest/20220313173800/Echoes_ACT3_VA_Infobox_Anime.png/400px-Echoes_ACT3_VA_Infobox_Anime.png"
+      ],
+      "user": "Koichi Hirose",
+      "gender": "Male",
+      "hair_color": "Blue ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/9/9b/latest/20211012034402/Koichi_Hirose_Infobox_Anime.png/400px-Koichi_Hirose_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/d/d7/latest/20191015215116/Koichi_Hirose_VA_Infobox_Anime.png/400px-Koichi_Hirose_VA_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 39,
+      "reference_url": "https://jojowiki.com/Heaven%27s_Door",
+      "season": "Diamond is Unbreakable",
+      "type": ["Close-Range", "Reconnaissance", "Natural Humanoid"],
+      "stand": "Heaven's Door",
+      "stand_ja": "ヘブンズ・ドアー（天国への扉）",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/5/50/latest/20210203193008/Heaven%27s_Door_Infobox_Anime.png/400px-Heaven%27s_Door_Infobox_Anime.png"
+      ],
+      "user": "Rohan Kishibe",
+      "gender": "Male",
+      "hair_color": "Teal ",
+      "eye_color": "Teal ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/9/9e/latest/20210314044358/Rohan_Kishibe_Infobox_Anime.png/400px-Rohan_Kishibe_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 40,
+      "reference_url": "https://jojowiki.com/Killer_Queen",
+      "season": "Diamond is Unbreakable",
+      "type": ["Close-Range", "Natural Humanoid"],
+      "stand": "Killer Queen",
+      "stand_ja": "キラークイーン",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/1/14/latest/20221020232023/Killer_Queen_Infobox_Anime.png/400px-Killer_Queen_Infobox_Anime.png"
+      ],
+      "user": "Yoshikage Kira",
+      "gender": "Male",
+      "hair_color": "Blond",
+      "eye_color": "Purple",
+      "user_images": [
+        "https://static.jojowiki.com/images/1/10/latest/20210220231052/Yoshikage_Kira_Original_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/d/da/latest/20210611223837/Yoshikage_Kira_Kosaku_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/b/b2/latest/20210107192532/Yoshikage_Kira_Matured_Infobox_Anime.png/400px-Yoshikage_Kira_Matured_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 41,
+      "reference_url": "https://jojowiki.com/Sheer_Heart_Attack",
+      "season": "Diamond is Unbreakable",
+      "type": ["Automatic", "Artificial Non-Humanoid"],
+      "stand": "Sheer Heart Attack",
+      "stand_ja": "シアーハートアタック",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/b/ba/latest/20221020232632/Sheer_Heart_Attack_Infobox_Anime.png/400px-Sheer_Heart_Attack_Infobox_Anime.png"
+      ],
+      "user": "Yoshikage Kira",
+      "gender": "Male",
+      "hair_color": "Blond",
+      "eye_color": "Purple",
+      "user_images": [
+        "https://static.jojowiki.com/images/1/10/latest/20210220231052/Yoshikage_Kira_Original_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/d/da/latest/20210611223837/Yoshikage_Kira_Kosaku_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/b/b2/latest/20210107192532/Yoshikage_Kira_Matured_Infobox_Anime.png/400px-Yoshikage_Kira_Matured_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 42,
+      "reference_url": "https://jojowiki.com/Bites_the_Dust",
+      "season": "Diamond is Unbreakable",
+      "type": [
+        "Automatic",
+        "Psychological Assault",
+        "Natural Humanoid",
+        "Evolved"
+      ],
+      "stand": "Bites the Dust",
+      "stand_ja": "BITE THE DUST (負けて死ね)",
+      "stand_images": [
+        "https://static.jojowiki.com/images/c/cb/latest/20230313162119/Bites_the_Dust_Infobox_Anime.png"
+      ],
+      "user": "Yoshikage Kira",
+      "gender": "Male",
+      "hair_color": "Blond",
+      "eye_color": "Purple",
+      "user_images": [
+        "https://static.jojowiki.com/images/1/10/latest/20210220231052/Yoshikage_Kira_Original_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/d/da/latest/20210611223837/Yoshikage_Kira_Kosaku_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/b/b2/latest/20210107192532/Yoshikage_Kira_Matured_Infobox_Anime.png/400px-Yoshikage_Kira_Matured_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 43,
+      "reference_url": "https://jojowiki.com/Aqua_Necklace",
+      "season": "Diamond is Unbreakable",
+      "type": ["Long-Range", "Materialized", "Natural Humanoid"],
+      "stand": "Aqua Necklace",
+      "stand_ja": "アクア・ネックレス（水の首飾り）",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/b/b1/latest/20221020232249/Aqua_Necklace_Infobox_Anime.png/400px-Aqua_Necklace_Infobox_Anime.png"
+      ],
+      "user": "Anjuro Katagiri",
+      "gender": "Male",
+      "hair_color": "Red ",
+      "eye_color": "Black ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/f/f0/latest/20191015212929/Anjuro_Katagiri_Infobox_Anime.png/400px-Anjuro_Katagiri_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 44,
+      "reference_url": "https://jojowiki.com/Bad_Company",
+      "season": "Diamond is Unbreakable",
+      "type": ["Close-Range", "Reconnaissance", "Natural Humanoid", "Colony"],
+      "stand": "Bad Company",
+      "stand_ja": "極悪中隊",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/4/4a/latest/20221020231958/Bad_Company_Infobox_Anime.png/400px-Bad_Company_Infobox_Anime.png"
+      ],
+      "user": "Keicho Nijimura",
+      "gender": "Male",
+      "hair_color": "Blond ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/4/46/latest/20210907212017/Keicho_Nijimura_Infobox_Anime.png/400px-Keicho_Nijimura_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 45,
+      "reference_url": "https://jojowiki.com/Red_Hot_Chili_Pepper",
+      "season": "Diamond is Unbreakable",
+      "type": ["Long-Range", "Natural Humanoid"],
+      "stand": "Red Hot Chili Pepper",
+      "stand_ja": "レッド・ホット・チリ・ペッパー",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/5/59/latest/20191015213016/RHCP_Infobox_Anime.png/400px-RHCP_Infobox_Anime.png"
+      ],
+      "user": "Akira Otoishi",
+      "gender": "Male",
+      "hair_color": "Purple ",
+      "eye_color": "Black ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/3/31/latest/20211213170342/Akira_Otoishi_Infobox_Anime.png/400px-Akira_Otoishi_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 46,
+      "reference_url": "https://jojowiki.com/The_Lock",
+      "season": "Diamond is Unbreakable",
+      "type": [
+        "Range Irrelevant",
+        "Psychological Assault",
+        "Artificial Non-Humanoid"
+      ],
+      "stand": "The Lock",
+      "stand_ja": "錠前",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/5/5d/latest/20211012143104/The_Lock_Infobox_Anime.png/400px-The_Lock_Infobox_Anime.png"
+      ],
+      "user": "Tamami Kobayashi",
+      "gender": "Male",
+      "hair_color": "Black ",
+      "eye_color": "Black ",
+      "user_images": [
+        "https://static.jojowiki.com/images/9/93/latest/20220112133914/Tamami_Kobayashi_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 47,
+      "reference_url": "https://jojowiki.com/Surface",
+      "season": "Diamond is Unbreakable",
+      "type": ["Automatic", "Materialized", "Phenomenon", "Sentient"],
+      "stand": "Surface",
+      "stand_ja": "うわっ面",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/0/03/latest/20210601092929/Surface_Infobox_Anime.png/400px-Surface_Infobox_Anime.png"
+      ],
+      "user": "Toshikazu Hazamada",
+      "gender": "Male",
+      "hair_color": "Black ",
+      "eye_color": "Black ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/0/0b/latest/20191015215226/Toshikazu_Hazamada_Infobox_Anime.png/400px-Toshikazu_Hazamada_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 48,
+      "reference_url": "https://jojowiki.com/Love_Deluxe",
+      "season": "Diamond is Unbreakable",
+      "type": ["Range Irrelevant", "Integrated", "Materialized", "Phenomenon"],
+      "stand": "Love Deluxe",
+      "stand_ja": "ラブ・デラックス",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/d/d3/latest/20210222045719/Love_Deluxe_Infobox_Anime.png/400px-Love_Deluxe_Infobox_Anime.png"
+      ],
+      "user": "Yukako Yamagishi",
+      "gender": "Female",
+      "hair_color": "Black ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/d/d3/latest/20211012030548/Yukako_Yamagishi_Infobox_Anime.png/400px-Yukako_Yamagishi_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 49,
+      "reference_url": "https://jojowiki.com/Pearl_Jam",
+      "season": "Diamond is Unbreakable",
+      "type": ["Range Irrelevant", "Natural Non-Humanoid", "Colony"],
+      "stand": "Pearl Jam",
+      "stand_ja": "パール・ジャム",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/7/70/latest/20191015212728/Pearl_Jam_Infobox_Anime.png/400px-Pearl_Jam_Infobox_Anime.png"
+      ],
+      "user": "Tonio Trussardi",
+      "gender": "Male",
+      "hair_color": "Brown ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/8/87/latest/20220112144423/Tonio_Trussardi_Infobox_Anime.png/400px-Tonio_Trussardi_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 50,
+      "reference_url": "https://jojowiki.com/Hermit_Purple",
+      "season": "Diamond is Unbreakable",
+      "type": ["Close-Range", "Reconnaissance", "Natural Non-Humanoid"],
+      "stand": "Hermit Purple",
+      "stand_ja": "ハーミットパープル（隠者の紫）",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/0/0a/latest/20220922193045/Hermit_Purple_SC_Infobox_Anime.png/400px-Hermit_Purple_SC_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/4/4e/latest/20220922194755/Hermit_Purple_DU_Infobox_Anime.png/400px-Hermit_Purple_DU_Infobox_Anime.png"
+      ],
+      "user": "Joseph Joestar",
+      "gender": "Male",
+      "hair_color": "Brown",
+      "eye_color": "Green ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/6/6e/latest/20210313174003/Joseph_young_BT_Infobox_Anime.png/400px-Joseph_young_BT_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/a/a1/latest/20211011184730/Joseph_SC_Infobox_Anime.png/400px-Joseph_SC_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/4/41/latest/20210316224204/Joseph_DU_Infobox_Anime.png/400px-Joseph_DU_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 51,
+      "reference_url": "https://jojowiki.com/Achtung_Baby",
+      "season": "Diamond is Unbreakable",
+      "type": ["Range Irrelevant", "Integrated", "Phenomenon"],
+      "stand": "Achtung Baby",
+      "stand_ja": "アクトン・ベイビー",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/a/ad/latest/20191015213828/Achtung_Baby_Infobox_Anime.png/400px-Achtung_Baby_Infobox_Anime.png"
+      ],
+      "user": "Shizuka Joestar",
+      "gender": "Female",
+      "hair_color": "Unknown",
+      "eye_color": "Unknown",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/1/19/latest/20220917015728/Shizuka_Infobox_Anime.png/400px-Shizuka_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 52,
+      "reference_url": "https://jojowiki.com/Ratt",
+      "season": "Diamond is Unbreakable",
+      "type": ["Close-Range", "Artificial Non-Humanoid", "Shared"],
+      "stand": "Ratt",
+      "stand_ja": "ラット",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/2/2a/latest/20191015215324/Ratt_Infobox_Anime.png/400px-Ratt_Infobox_Anime.png"
+      ],
+      "user": "Bug-Eaten",
+      "gender": "Unknown",
+      "hair_color": "Brown",
+      "eye_color": "Red ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/9/9e/latest/20191015214206/Mushikui_Infobox_Anime.png/400px-Mushikui_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 53,
+      "reference_url": "https://jojowiki.com/Harvest",
+      "season": "Diamond is Unbreakable",
+      "type": [
+        "Long-Range",
+        "Reconnaissance",
+        "Natural Non-Humanoid",
+        "Colony"
+      ],
+      "stand": "Harvest",
+      "stand_ja": "ハーヴェスト",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/7/73/latest/20220904041353/Harvest_Infobox_Anime.png/400px-Harvest_Infobox_Anime.png"
+      ],
+      "user": "Shigekiyo \"Shigechi\" Yangu",
+      "gender": "Male",
+      "hair_color": "Unknown",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/f/fe/latest/20220525233647/Shigechi_Infobox_Anime.png/400px-Shigechi_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 54,
+      "reference_url": "https://jojowiki.com/Cinderella",
+      "season": "Diamond is Unbreakable",
+      "type": ["Close-Range", "Artificial Humanoid"],
+      "stand": "Cinderella",
+      "stand_ja": "シンデレラ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/3/38/latest/20191015215723/Cinderella_Infobox_Anime.png/400px-Cinderella_Infobox_Anime.png"
+      ],
+      "user": "Aya Tsuji",
+      "gender": "Female",
+      "hair_color": "Brown ",
+      "eye_color": "Gold ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/a/a4/latest/20210728195852/Aya_Tsuji_Infobox_Anime.png/400px-Aya_Tsuji_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 55,
+      "reference_url": "https://jojowiki.com/Atom_Heart_Father",
+      "season": "Diamond is Unbreakable",
+      "type": [
+        "Range Irrelevant",
+        "Materialized",
+        "Psychological Assault",
+        "Phenomenon"
+      ],
+      "stand": "Atom Heart Father",
+      "stand_ja": "アトム・ハート・ファーザー",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/0/00/latest/20220924230813/Atom_Heart_Father_Infobox_Anime.png/400px-Atom_Heart_Father_Infobox_Anime.png"
+      ],
+      "user": "Yoshihiro Kira",
+      "gender": "Male",
+      "hair_color": "Grey/Black ",
+      "eye_color": "Brown ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/4/48/latest/20191015214616/Yoshihiro_Kira_Human_Infobox_Anime.png/400px-Yoshihiro_Kira_Human_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 56,
+      "reference_url": "https://jojowiki.com/Boy_II_Man",
+      "season": "Diamond is Unbreakable",
+      "type": ["Close-Range", "Psychological Assault", "Natural Humanoid"],
+      "stand": "Boy II Man",
+      "stand_ja": "ボーイ・II・マン",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/b/b9/latest/20191015220101/Boy_II_Man_Infobox_Anime.png/400px-Boy_II_Man_Infobox_Anime.png"
+      ],
+      "user": "Ken Oyanagi",
+      "gender": "Male",
+      "hair_color": "Ginger ",
+      "eye_color": "Brown ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/b/b8/latest/20191015214618/Ken_Oyanagi_Infobox_Anime.png/400px-Ken_Oyanagi_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 57,
+      "reference_url": "https://jojowiki.com/Earth_Wind_and_Fire",
+      "season": "Diamond is Unbreakable",
+      "type": ["Range Irrelevant", "Integrated", "Phenomenon"],
+      "stand": "Earth Wind and Fire",
+      "stand_ja": "アース・ウィンド・アンド・ファイヤー",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/5/55/latest/20191015213033/EWF_Infobox_Anime.png/400px-EWF_Infobox_Anime.png"
+      ],
+      "user": "Mikitaka Hazekura",
+      "gender": "Male",
+      "hair_color": "Silver ",
+      "eye_color": "Green ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/e/e1/latest/20220922195312/Mikitaka_Hazekura_Infobox_Anime.png/400px-Mikitaka_Hazekura_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 58,
+      "reference_url": "https://jojowiki.com/Highway_Star",
+      "season": "Diamond is Unbreakable",
+      "type": ["Long-Range", "Automatic", "Reconnaissance", "Natural Humanoid"],
+      "stand": "Highway Star",
+      "stand_ja": "ハイウェイ・スター",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/0/07/latest/20220408145530/Highway_Star_Infobox_Anime.png/400px-Highway_Star_Infobox_Anime.png"
+      ],
+      "user": "Yuya Fungami",
+      "gender": "Male",
+      "hair_color": "Black and White ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/9/94/latest/20210106060056/Yuya_Fungami_Infobox_Anime.png/400px-Yuya_Fungami_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 59,
+      "reference_url": "https://jojowiki.com/Stray_Cat",
+      "season": "Diamond is Unbreakable",
+      "type": [
+        "Range Irrelevant",
+        "Integrated",
+        "Materialized",
+        "Phenomenon",
+        "Sentient",
+        "Natural Non-Humanoid"
+      ],
+      "stand": "Stray Cat",
+      "stand_ja": "ストレイ・キャット (猫草)",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/7/7d/latest/20220908212216/Stray_Cat_Original_Infobox_Anime.png/400px-Stray_Cat_Original_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/e/e7/latest/20191015213018/Stray_Cat_Grown_Infobox_Anime.png/400px-Stray_Cat_Grown_Infobox_Anime.png"
+      ],
+      "user": "Tama",
+      "gender": "Male",
+      "hair_color": "Blueish gray (fur)",
+      "eye_color": "Gold",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/0/02/latest/20191015215927/Tama_Infobox_Anime.png/400px-Tama_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 60,
+      "reference_url": "https://jojowiki.com/Super_Fly",
+      "season": "Diamond is Unbreakable",
+      "type": ["Automatic", "Materialized", "Artificial Non-Humanoid"],
+      "stand": "Super Fly",
+      "stand_ja": "スーパーフライ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/4/45/latest/20191015215742/Super_Fly_Infobox_Anime.png/400px-Super_Fly_Infobox_Anime.png"
+      ],
+      "user": "Toyohiro Kanedaichi",
+      "gender": "Male",
+      "hair_color": "Blue ",
+      "eye_color": "Gold ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/4/45/latest/20191015214547/Toyohiro_Kanedaichi_Infobox_Anime.png/400px-Toyohiro_Kanedaichi_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 61,
+      "reference_url": "https://jojowiki.com/Enigma",
+      "season": "Diamond is Unbreakable",
+      "type": ["Close-Range", "Psychological Assault", "Artificial Humanoid"],
+      "stand": "Enigma",
+      "stand_ja": "エニグマ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/5/51/latest/20221010022748/Enigma_Infobox_Anime.png/400px-Enigma_Infobox_Anime.png"
+      ],
+      "user": "Terunosuke Miyamoto",
+      "gender": "Male",
+      "hair_color": "White ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/4/49/latest/20210725174702/Terunosuke_Miyamoto_Infobox_Anime.png/400px-Terunosuke_Miyamoto_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 62,
+      "reference_url": "https://jojowiki.com/Cheap_Trick",
+      "season": "Diamond is Unbreakable",
+      "type": [
+        "Automatic",
+        "Psychological Assault",
+        "Natural Humanoid",
+        "Shared",
+        "Sentient"
+      ],
+      "stand": "Cheap Trick",
+      "stand_ja": "チープ・トリック",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/8/8e/latest/20191015214358/Cheap_Trick_Infobox_Anime.png/400px-Cheap_Trick_Infobox_Anime.png"
+      ],
+      "user": "Masazo Kinoto",
+      "gender": "Male",
+      "hair_color": "Ginger ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/b/b3/latest/20191015213549/Masazo_Kinoto_Infobox_Anime.png/400px-Masazo_Kinoto_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 63,
+      "reference_url": "https://jojowiki.com/Gold_Experience",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Reconnaissance", "Natural Humanoid"],
+      "stand": "Gold Experience",
+      "stand_ja": "ゴールド・エクスペリエンス (黄金体験)",
+      "stand_images": [
+        "https://static.jojowiki.com/images/8/81/latest/20210707053105/Gold_Experience_Infobox_Anime.png"
+      ],
+      "user": "Giorno Giovanna",
+      "gender": "Male",
+      "hair_color": "Black ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/4/4a/latest/20210422070411/Giorno_Giovanna_Infobox_Anime.png/400px-Giorno_Giovanna_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 64,
+      "reference_url": "https://jojowiki.com/Sticky_Fingers",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Natural Humanoid"],
+      "stand": "Sticky Fingers",
+      "stand_ja": "スティッキィ・フィンガーズ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/7/78/latest/20221006032155/Sticky_Fingers_Infobox_Anime.png/400px-Sticky_Fingers_Infobox_Anime.png"
+      ],
+      "user": "Bruno Bucciarati",
+      "gender": "Male",
+      "hair_color": "Black ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/a/a2/latest/20210513091755/Bruno_Bucciarati_Infobox_Anime.png/400px-Bruno_Bucciarati_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 65,
+      "reference_url": "https://jojowiki.com/Moody_Blues",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Reconnaissance", "Artificial Humanoid"],
+      "stand": "Moody Blues",
+      "stand_ja": "ムーディー・ブルース",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/9/91/latest/20220916205647/Moody_Blues_Infobox_Anime.png/400px-Moody_Blues_Infobox_Anime.png"
+      ],
+      "user": "Leone Abbacchio",
+      "gender": "Male",
+      "hair_color": "White ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/e/ee/latest/20210827060558/Leone_Abbacchio_Infobox_Anime.png/400px-Leone_Abbacchio_Infobox_Anime.png"
+      ]
+    }]}

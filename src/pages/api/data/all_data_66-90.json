@@ -1,0 +1,486 @@
+{
+  "data": [
+{
+      "id": 66,
+      "reference_url": "https://jojowiki.com/Sex_Pistols",
+      "season": "Vento Aureo",
+      "type": ["Long-Range", "Natural Humanoid", "Colony", "Sentient"],
+      "stand": "Sex Pistols",
+      "stand_ja": "セックス・ピストルズ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/b/b9/latest/20210521114106/Sex_Pistols_Infobox_Anime.png/400px-Sex_Pistols_Infobox_Anime.png"
+      ],
+      "user": "Guido Mista",
+      "gender": "Male",
+      "hair_color": "Unknown",
+      "eye_color": "Black ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/c/c6/latest/20210827063749/Guido_Mista_Infobox_Anime.png/400px-Guido_Mista_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 67,
+      "reference_url": "https://jojowiki.com/Aerosmith",
+      "season": "Vento Aureo",
+      "type": ["Long-Range", "Artificial Non-Humanoid", "Reconnaissance"],
+      "stand": "Aerosmith",
+      "stand_ja": "エアロスミス",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/7/7c/latest/20210701024635/Aerosmith_Infobox_Anime.png/400px-Aerosmith_Infobox_Anime.png"
+      ],
+      "user": "Narancia Ghirga",
+      "gender": "Male",
+      "hair_color": "Black ",
+      "eye_color": "Purple ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/4/44/latest/20201126091532/Narancia_Ghirga_Infobox_Anime.png/400px-Narancia_Ghirga_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 68,
+      "reference_url": "https://jojowiki.com/Purple_Haze",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Natural Humanoid", "Sentient"],
+      "stand": "Purple Haze",
+      "stand_ja": "パープル・ヘイズ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/c/ca/latest/20191015214140/Purple_Haze_Infobox_Anime.png/400px-Purple_Haze_Infobox_Anime.png"
+      ],
+      "user": "Pannacotta Fugo",
+      "gender": "Male",
+      "hair_color": "White ",
+      "eye_color": "Red ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/f/f7/latest/20201126081211/Pannacotta_Fugo_Infobox_Anime.png/400px-Pannacotta_Fugo_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 69,
+      "reference_url": "https://jojowiki.com/Spice_Girl",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Natural Humanoid", "Sentient"],
+      "stand": "Spice Girl",
+      "stand_ja": "スパイス・ガール",
+      "stand_images": [
+        "https://static.jojowiki.com/images/2/21/latest/20200118002424/Spice_Girl_Infobox_Anime.png"
+      ],
+      "user": "Trish Una",
+      "gender": "Female",
+      "hair_color": "Pink ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/f/fc/latest/20210609202738/Trish_Una_Infobox_Anime.png/400px-Trish_Una_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 70,
+      "reference_url": "https://jojowiki.com/Mr.President",
+      "season": "Vento Aureo",
+      "type": ["Range Irrelevant", "Integrated", "Phenomenon"],
+      "stand": "Mr.President",
+      "stand_ja": "ミスター・プレジデント",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/d/da/latest/20191015213903/Mr.President_Infobox_Anime.png/400px-Mr.President_Infobox_Anime.png"
+      ],
+      "user": "Coco Jumbo",
+      "gender": "Unknown",
+      "hair_color": "Unknown",
+      "eye_color": "Yellow ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/c/ce/latest/20191015215846/Coco_Jumbo_Anime_Infobox.png/400px-Coco_Jumbo_Anime_Infobox.png"
+      ]
+    },
+    {
+      "id": 71,
+      "reference_url": "https://jojowiki.com/Silver_Chariot",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Artificial Humanoid"],
+      "stand": "Silver Chariot",
+      "stand_ja": "シルバーチャリオッツ（銀の戦車）",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/0/09/latest/20221019190021/Silver_Chariot_SC_Infobox_Anime.png/400px-Silver_Chariot_SC_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/9/96/latest/20191015215448/Silver_Chariot_VA_Infobox_Anime.png/400px-Silver_Chariot_VA_Infobox_Anime.png"
+      ],
+      "user": "Jean Pierre Polnareff",
+      "gender": "Male",
+      "hair_color": "Silver",
+      "eye_color": "Blue",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/b/ba/latest/20211013051059/Polnareff_SC_Infobox_Anime.png/400px-Polnareff_SC_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/c/c5/latest/20210925112817/Polnareff_VA_Infobox_Anime.png/400px-Polnareff_VA_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 72,
+      "reference_url": "https://jojowiki.com/Chariot_Requiem",
+      "season": "Vento Aureo",
+      "type": ["Automatic", "Materialized", "Natural Humanoid", "Evolved"],
+      "stand": "Chariot Requiem",
+      "stand_ja": "チャリオッツ・レクイエム",
+      "stand_images": [
+        "https://static.jojowiki.com/images/1/12/latest/20211210020712/Chariot_Requiem_Infobox_Anime.png"
+      ],
+      "user": "Jean Pierre Polnareff",
+      "gender": "Male",
+      "hair_color": "Silver",
+      "eye_color": "Blue",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/b/ba/latest/20211013051059/Polnareff_SC_Infobox_Anime.png/400px-Polnareff_SC_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/c/c5/latest/20210925112817/Polnareff_VA_Infobox_Anime.png/400px-Polnareff_VA_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 73,
+      "reference_url": "https://jojowiki.com/Gold_Experience_Requiem",
+      "season": "Vento Aureo",
+      "type": [
+        "Close-Range",
+        "Range Irrelevant",
+        "Natural Humanoid",
+        "Sentient",
+        "Evolved"
+      ],
+      "stand": "Gold Experience Requiem",
+      "stand_ja": "ゴールド・エクスペリエンス・レクイエム",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/1/19/latest/20220802141706/GER_Infobox_Anime.png/400px-GER_Infobox_Anime.png"
+      ],
+      "user": "Giorno Giovanna",
+      "gender": "Male",
+      "hair_color": "Black ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/4/4a/latest/20210422070411/Giorno_Giovanna_Infobox_Anime.png/400px-Giorno_Giovanna_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 74,
+      "reference_url": "https://jojowiki.com/King_Crimson",
+      "season": "Vento Aureo",
+      "type": [
+        "Close-Range",
+        "Range Irrelevant",
+        "Foresight",
+        "Natural Humanoid",
+        "Shared"
+      ],
+      "stand": "King Crimson",
+      "stand_ja": "キング・クリムゾン Ｋ・クリムゾン",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/c/c6/latest/20191015213856/King_Crimson_Infobox_Anime.png/400px-King_Crimson_Infobox_Anime.png"
+      ],
+      "user": "Diavolo",
+      "gender": "Male",
+      "hair_color": "Pink & Dark Red ",
+      "eye_color": "Black ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/2/21/latest/20201208003715/Diavolo_Revealed_Infobox_Anime.png/400px-Diavolo_Revealed_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 75,
+      "reference_url": "https://jojowiki.com/Echoes",
+      "season": "Vento Aureo",
+      "type": [
+        "Long-Range",
+        "Close-Range",
+        "Psychological Assault",
+        "Natural Non-Humanoid",
+        "Artificial Humanoid",
+        "Sentient",
+        "Evolved"
+      ],
+      "stand": "Echoes",
+      "stand_ja": "エコーズ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/d/dc/latest/20210424210829/Echoes_ACT1_DU_Infobox_Anime.png/400px-Echoes_ACT1_DU_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/6/69/latest/20220429134636/Echoes_ACT2_DU_Infobox_Anime.png/400px-Echoes_ACT2_DU_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/8/8e/latest/20210422175130/Echoes_ACT3_DU_Infobox_Anime.png/400px-Echoes_ACT3_DU_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/6/6d/latest/20220313173800/Echoes_ACT3_VA_Infobox_Anime.png/400px-Echoes_ACT3_VA_Infobox_Anime.png"
+      ],
+      "user": "Koichi Hirose",
+      "gender": "Male",
+      "hair_color": "Blue ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/9/9b/latest/20211012034402/Koichi_Hirose_Infobox_Anime.png/400px-Koichi_Hirose_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/thumb/d/d7/latest/20191015215116/Koichi_Hirose_VA_Infobox_Anime.png/400px-Koichi_Hirose_VA_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 76,
+      "reference_url": "https://jojowiki.com/Black_Sabbath",
+      "season": "Vento Aureo",
+      "type": ["Automatic", "Artificial Humanoid"],
+      "stand": "Black Sabbath",
+      "stand_ja": "ブラック・サバス",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/1/17/latest/20220920220032/Black_Sabbath_Infobox_Anime.png/400px-Black_Sabbath_Infobox_Anime.png"
+      ],
+      "user": "Polpo",
+      "gender": "Male",
+      "hair_color": "Unknown",
+      "eye_color": "Black sclera/Red irises ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/f/ff/latest/20191015213339/Polpo_Infobox_Anime.png/400px-Polpo_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 77,
+      "reference_url": "https://jojowiki.com/Soft_Machine",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Artificial Humanoid"],
+      "stand": "Soft Machine",
+      "stand_ja": "ソフト・マシーン",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/6/69/latest/20191015214657/Soft_Machine_Infobox_Anime.png/400px-Soft_Machine_Infobox_Anime.png"
+      ],
+      "user": "Mario Zucchero",
+      "gender": "Male",
+      "hair_color": "Grey ",
+      "eye_color": "Dark Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/9/97/latest/20191015213700/Mario_Zucchero_Infobox_Anime.png/400px-Mario_Zucchero_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 78,
+      "reference_url": "https://jojowiki.com/Kraft_Work",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Artificial Humanoid"],
+      "stand": "Kraft Work",
+      "stand_ja": "クラフト・ワーク",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/4/49/latest/20191015220058/Kraft_Work_Infobox_Anime.png/400px-Kraft_Work_Infobox_Anime.png"
+      ],
+      "user": "Sale",
+      "gender": "Male",
+      "hair_color": "Ginger ",
+      "eye_color": "Aquamarine ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/6/6e/latest/20200419195908/Sale_Anime_Infobox.png/400px-Sale_Anime_Infobox.png"
+      ]
+    },
+    {
+      "id": 79,
+      "reference_url": "https://jojowiki.com/Little_Feet",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Artificial Humanoid"],
+      "stand": "Little Feet",
+      "stand_ja": "リトル・フィート",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/5/56/latest/20210707063458/Little_Feet_Infobox_Anime.png/400px-Little_Feet_Infobox_Anime.png"
+      ],
+      "user": "Formaggio",
+      "gender": "Male",
+      "hair_color": "Auburn ",
+      "eye_color": "Gray ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/5/5a/latest/20191015215908/Formaggio_Infobox_Anime.png/400px-Formaggio_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 80,
+      "reference_url": "https://jojowiki.com/Man_in_the_Mirror",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Natural Humanoid"],
+      "stand": "Man in the Mirror",
+      "stand_ja": "マン・イン・ザ・ミラー",
+      "stand_images": [
+        "https://static.jojowiki.com/images/e/eb/latest/20210707055436/Man_in_the_Mirror_Infobox_Anime.png"
+      ],
+      "user": "Illuso",
+      "gender": "Male",
+      "hair_color": "Black ",
+      "eye_color": "Purple ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/f/fd/latest/20210323052306/Illuso_Infobox_Anime.png/400px-Illuso_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 81,
+      "reference_url": "https://jojowiki.com/Beach_Boy",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Reconnaissance", "Artificial Non-Humanoid"],
+      "stand": "Beach Boy",
+      "stand_ja": "ビーチ・ボーイ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/e/ec/latest/20220408145540/Beach_Boy_Infobox_Anime.png/400px-Beach_Boy_Infobox_Anime.png"
+      ],
+      "user": "Pesci",
+      "gender": "Male",
+      "hair_color": "Green ",
+      "eye_color": "Black ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/0/06/latest/20210430202730/Pesci_Infobox_Anime.png/400px-Pesci_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 82,
+      "reference_url": "https://jojowiki.com/The_Grateful_Dead",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Artificial Humanoid"],
+      "stand": "The Grateful Dead",
+      "stand_ja": "ザ・グレイトフル・デッド",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/2/29/latest/20191015215829/The_Grateful_Dead_Infobox_Anime.png/400px-The_Grateful_Dead_Infobox_Anime.png"
+      ],
+      "user": "Prosciutto",
+      "gender": "Male",
+      "hair_color": "Blond ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/5/5f/latest/20210513143116/Prosciutto_Infobox_Anime.png/400px-Prosciutto_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 83,
+      "reference_url": "https://jojowiki.com/Baby_Face",
+      "season": "Vento Aureo",
+      "type": [
+        "Automatic",
+        "Materialized",
+        "Artificial Non-Humanoid",
+        "Sentient"
+      ],
+      "stand": "Baby Face",
+      "stand_ja": "ベイビィ・フェイス",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/c/c9/latest/20210707074453/Baby_Face_PC_Infobox_Anime.png/400px-Baby_Face_PC_Infobox_Anime.png",
+        "https://static.jojowiki.com/images/c/ca/latest/20210707060430/Baby_Face_Junior_Infobox_Anime.png"
+      ],
+      "user": "Melone",
+      "gender": "Male",
+      "hair_color": "Blond ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/2/21/latest/20191015212907/Melone_Infobox_Anime.jpg/400px-Melone_Infobox_Anime.jpg"
+      ]
+    },
+    {
+      "id": 84,
+      "reference_url": "https://jojowiki.com/White_Album",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Artificial Non-Humanoid"],
+      "stand": "White Album",
+      "stand_ja": "ホワイト・アルバム",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/a/a9/latest/20191015215835/White_Album_Infobox_Anime.png/400px-White_Album_Infobox_Anime.png"
+      ],
+      "user": "Ghiaccio",
+      "gender": "Male",
+      "hair_color": "Blue ",
+      "eye_color": "Black ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/5/5d/latest/20220115115447/Ghiaccio_Infobox_Anime.png/400px-Ghiaccio_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 85,
+      "reference_url": "https://jojowiki.com/Clash",
+      "season": "Vento Aureo",
+      "type": ["Long-Range", "Natural Non-Humanoid"],
+      "stand": "Clash",
+      "stand_ja": "クラッシュ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/6/66/latest/20210208190621/Clash_Infobox_Anime.png/400px-Clash_Infobox_Anime.png"
+      ],
+      "user": "Squalo",
+      "gender": "Male",
+      "hair_color": "Orange ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/a/a7/latest/20191015214033/Squalo_Infobox_Anime.png/400px-Squalo_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 86,
+      "reference_url": "https://jojowiki.com/Talking_Head",
+      "season": "Vento Aureo",
+      "type": ["Long-Range", "Phenomenon"],
+      "stand": "Talking Head",
+      "stand_ja": "トーキング・ヘッド",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/6/68/latest/20210719190437/Talking_Head_Infobox_Anime.png/400px-Talking_Head_Infobox_Anime.png"
+      ],
+      "user": "Tizzano",
+      "gender": "Male",
+      "hair_color": "Gray ",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/3/3d/latest/20191016205644/Tizzano_Infobox_Anime.PNG/400px-Tizzano_Infobox_Anime.PNG"
+      ]
+    },
+    {
+      "id": 87,
+      "reference_url": "https://jojowiki.com/Notorious_B.I.G",
+      "season": "Vento Aureo",
+      "type": ["Automatic", "Phenomenon"],
+      "stand": "Notorious B.I.G",
+      "stand_ja": "ノトーリアス・B・I・G",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/9/9d/latest/20191015215533/Notorious_B.I.G_Normal_Infobox_Anime.jpg/400px-Notorious_B.I.G_Normal_Infobox_Anime.jpg",
+        "https://static.jojowiki.com/images/thumb/6/68/latest/20191015214004/Notorious_B.I.G_Original_Infobox_Anime.png/400px-Notorious_B.I.G_Original_Infobox_Anime.png"
+      ],
+      "user": "Carne",
+      "gender": "Male",
+      "hair_color": "Green ",
+      "eye_color": "Black ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/e/e0/latest/20221020232128/Carne_Infobox_Anime.png/400px-Carne_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 88,
+      "reference_url": "https://jojowiki.com/Metallica",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Phenomenon", "Colony"],
+      "stand": "Metallica",
+      "stand_ja": "メタリカ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/c/c0/latest/20191015214533/Metallica_Infobox_Anime.png/400px-Metallica_Infobox_Anime.png"
+      ],
+      "user": "Risotto Nero",
+      "gender": "Male",
+      "hair_color": "Purple ",
+      "eye_color": "Black sclera / Red irises",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/2/2a/latest/20210806010338/Risotto_Nero_Infobox_Anime.png/400px-Risotto_Nero_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 89,
+      "reference_url": "https://jojowiki.com/Green_Day",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Artificial Humanoid"],
+      "stand": "Green Day",
+      "stand_ja": "グリーン・ディ",
+      "stand_images": [
+        "https://static.jojowiki.com/images/a/a4/latest/20210707061339/Green_Day_Infobox_Anime.png"
+      ],
+      "user": "Cioccolata",
+      "gender": "Male",
+      "hair_color": "Green ",
+      "eye_color": "Green ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/2/25/latest/20191015213948/Cioccolata_Infobox_Anime.png/400px-Cioccolata_Infobox_Anime.png"
+      ]
+    },
+    {
+      "id": 90,
+      "reference_url": "https://jojowiki.com/Oasis",
+      "season": "Vento Aureo",
+      "type": ["Close-Range", "Artificial Non-Humanoid"],
+      "stand": "Oasis",
+      "stand_ja": "オアシス",
+      "stand_images": [
+        "https://static.jojowiki.com/images/thumb/0/06/latest/20191015212931/Oasis_Infobox_Anime.png/400px-Oasis_Infobox_Anime.png"
+      ],
+      "user": "Secco",
+      "gender": "Male",
+      "hair_color": "Unknown",
+      "eye_color": "Blue ",
+      "user_images": [
+        "https://static.jojowiki.com/images/thumb/d/d1/latest/20210323141423/Secco_Infobox_Anime.png/400px-Secco_Infobox_Anime.png"
+      ]
+    }]}

@@ -46,6 +46,8 @@ export const RankRow = (props: Props) => {
               layout="fill"
               objectFit="contain"
               priority={true}
+              placeholder="blur"
+              blurDataURL={`${props.stand?.stand_image_blur_0}`}
             />
           </div>
           <div className="name px-4 text-2xl">{props.stand.name}</div>

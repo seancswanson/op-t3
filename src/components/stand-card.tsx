@@ -49,6 +49,8 @@ export const StandComponent = (props: { stand: Stand[] }) => {
             layout="fill"
             objectFit="contain"
             priority={true}
+            placeholder="blur"
+            blurDataURL={`${stand?.stand_image_blur_0}`}
           />
         </div>
         <button

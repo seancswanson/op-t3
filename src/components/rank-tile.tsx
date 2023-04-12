@@ -43,6 +43,8 @@ export const RankTile = (props: Props) => {
           layout="fill"
           objectFit="contain"
           priority={true}
+          placeholder="blur"
+          blurDataURL={`${props.stand?.stand_image_blur_0}`}
         />
       </div>
       <div className="name text-center text-2xl">{props.stand.name}</div>

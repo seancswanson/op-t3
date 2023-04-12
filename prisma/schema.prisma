@@ -21,25 +21,26 @@ model Example {
 }
 
 model Stand {
-  id            Int     @id
-  reference_url String
-  season        String
-  type_0        String?
-  type_1        String?
-  type_2        String?
-  type_3        String?
-  name          String
-  name_jp       String
-  stand_image_0 String
-  stand_image_1 String?
-  stand_image_2 String?
-  stand_image_3 String?
-  user          String
-  gender        String
-  hair_color    String
-  eye_color     String
-  user_image_0  String?
-  user_image_1  String?
-  user_image_2  String?
-  user_image_3  String?
+  id                 Int     @id
+  reference_url      String
+  season             String
+  type_0             String?
+  type_1             String?
+  type_2             String?
+  type_3             String?
+  name               String
+  name_jp            String
+  stand_image_0      String
+  stand_image_1      String?
+  stand_image_2      String?
+  stand_image_3      String?
+  stand_image_blur_0 String? @db.Text()
+  user               String
+  gender             String
+  hair_color         String
+  eye_color          String
+  user_image_0       String?
+  user_image_1       String?
+  user_image_2       String?
+  user_image_3       String?
 }
