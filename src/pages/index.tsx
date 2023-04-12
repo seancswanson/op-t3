@@ -18,7 +18,9 @@ const Home: NextPage = () => {
   }, []);
 
   const [first = 1, second = 2] = ids;
-
+const handleClick = () => {
+  console.log('ho)')
+}
   console.log(...ids);
 
   const firstStand = trpc.data.getStandById.useQuery({ id: first });
@@ -32,21 +34,35 @@ const Home: NextPage = () => {
         <meta name="description" content="Voting page of the most OP Stands." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="justify-right absolute top-0 right-0 flex flex-col p-4">
-        <div className="title border-2 text-center text-4xl">OP-T3</div>
-        <div className="title text-right text-4xl">
-          <Link href="/">Vote</Link>
-        </div>
-        <div className="title text-right text-4xl">
-          <Link href="rankings">Rankings</Link>
-        </div>
-      </header>
-      <div className="m-auto flex h-screen max-w-screen-sm flex-col justify-center gap-6 ">
-        <div className="text-center text-2xl">Which Stand is more OP?</div>
-        <div className="flex items-center justify-around p-8">
-          {standsHaveData ? <StandComponent stand={firstStand.data} /> : <StandPlaceholderComponent /> }
-          <div className="p-8 italic">or</div>
-          {standsHaveData ? <StandComponent stand={secondStand.data} /> : <StandPlaceholderComponent /> }
+      <div className="relative flex h-screen flex-col">
+        <header className="absolute top-0 right-0 flex flex-col items-end p-4">
+          <Link className="title border-2 text-center text-4xl" href="/">
+            OP-T3
+          </Link>
+          <div className="title text-right text-4xl">
+            <Link href="/">Vote</Link>
+          </div>
+          <div className="title text-right text-4xl">
+            <Link href="rankings">Rankings</Link>
+          </div>
+        </header>
+        <div className="flex h-full flex-col items-center justify-center">
+          <div className="mb-4 text-center text-2xl sm:mb-8">
+            Which Stand is more OP?
+          </div>
+          <div className="flex flex-col items-center gap-10 justify-center p-4 sm:flex-row sm:p-8">
+            {standsHaveData ? (
+              <StandComponent stand={firstStand.data} />
+            ) : (
+              <StandPlaceholderComponent />
+            )}
+            <div className="my-4 italic sm:my-0">or</div>
+            {standsHaveData ? (
+              <StandComponent stand={secondStand.data} />
+            ) : (
+              <StandPlaceholderComponent />
+            )}
+          </div>
         </div>
       </div>
     </>
