@@ -2,25 +2,21 @@ import jojoLogo from "../../public/jjba_pixel_logo.png";
 import Image from "next/legacy/image";
 import infoIcon from "../../public/info_icon.png";
 import { useState } from "react";
-import { Stand } from "@prisma/client";
+import type { Stand } from "@prisma/client";
 import { trpc } from "../utils/trpc";
 import StandInfo from "./StandInfo";
 
-
 export const StandComponent = (props: { stand: Stand[] }) => {
   const [moreInfoSelected, setMoreInfoSelected] = useState(false);
-  
+
   const stand = props.stand[0];
   const id = stand?.id || 0;
 
-  
-  const standInfo = trpc.data.getStandById.useQuery({id}).data?.[0];
-  
+  const standInfo = trpc.data.getStandById.useQuery({ id }).data?.[0];
 
   const handleInfoClick = () => {
     setMoreInfoSelected(!moreInfoSelected);
   };
-
 
   const handleOpClick = () => {
     console.table(standInfo);
