@@ -3,23 +3,18 @@ import Image from "next/legacy/image";
 import infoIcon from "../../public/info_icon.png";
 import { useState } from "react";
 import type { Stand } from "@prisma/client";
-import { trpc } from "../utils/trpc";
 import StandInfo from "./StandInfo";
 
-export const StandComponent = (props: { stand: Stand[] }) => {
+export const StandCardComponent = (props: {
+  stand: Stand[];
+  handleOpClick: (id: number) => void;
+}) => {
   const [moreInfoSelected, setMoreInfoSelected] = useState(false);
 
   const stand = props.stand[0];
-  const id = stand?.id || 0;
-
-  const standInfo = trpc.data.getStandById.useQuery({ id }).data?.[0];
 
   const handleInfoClick = () => {
     setMoreInfoSelected(!moreInfoSelected);
-  };
-
-  const handleOpClick = () => {
-    console.table(standInfo);
   };
 
   return (
@@ -51,7 +46,8 @@ export const StandComponent = (props: { stand: Stand[] }) => {
         </div>
         <button
           className="rounded-full border bg-slate-50  py-1 px-8 text-black hover:bg-slate-200"
-          onClick={handleOpClick}
+          // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+          onClick={() => props.handleOpClick(stand!.id)}
         >
           OP
         </button>

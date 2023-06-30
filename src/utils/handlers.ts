@@ -3,7 +3,8 @@ import type { MouseEvent } from "react";
 import * as wanakana from "wanakana";
 
 export const speakUtterance =
-  (stand: Stand | undefined) => (e: MouseEvent<HTMLButtonElement>) => {
+  (stand: Stand | undefined) =>
+  (e: MouseEvent<HTMLButtonElement | HTMLDivElement>) => {
     e.preventDefault();
 
     const synth = window.speechSynthesis;
@@ -28,4 +29,11 @@ export const romajiText = (value: string) => {
     .join(" ");
 
   return formattedRomaji;
+};
+
+export const votePercentage = (votesFor: number, votesAgainst: number) => {
+  const totalVotes = votesFor + votesAgainst;
+  const percentage = (votesFor / totalVotes) * 100;
+
+  return percentage;
 };

@@ -43,4 +43,13 @@ model Stand {
   user_image_1       String?
   user_image_2       String?
   user_image_3       String?
+  votesFor           Int     @default(0)
+  votesAgainst       Int     @default(0)
+}
+
+model Vote {
+  id           Int      @id @default(autoincrement())
+  votedFor     Int
+  votedAgainst Int
+  createdAt    DateTime @default(now())
 }

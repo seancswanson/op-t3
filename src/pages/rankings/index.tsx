@@ -1,36 +1,18 @@
-import { NextPage } from "next";
-import { useEffect, useState } from "react";
-import Image from "next/legacy/image";
-import jojoLogo from "../../../public/jjba_pixel_logo.png";
+import type { NextPage } from "next";
+import { useState } from "react";
 
 import Head from "next/head";
 import Link from "next/link";
 import { trpc } from "../../utils/trpc";
-import { Stand } from "@prisma/client";
-import { romajiText } from "../../utils/handlers";
 import { RankRow } from "../../components/rank-row";
 import { RankTile } from "../../components/rank-tile";
 
 const Ranking: NextPage = () => {
   const allStands = trpc.data.getAllStands.useQuery();
   const allStandsLoaded = allStands.data;
-  
+
   const [isGalleryView, setIsGalleryView] = useState(false);
   const [moreInfoSelected, setMoreInfoSelected] = useState(false);
-
-  const handleSpeakClick = (stand: Stand) => {
-    const synth = window.speechSynthesis;
-    const utterance = new SpeechSynthesisUtterance(
-      romajiText(stand?.name || "No name")
-    );
-
-    // As the voices were already loaded in the voice selector
-    // we don't need to use the onvoiceschanged event
-    utterance.voice = synth.getVoices()[69]!;
-    utterance.rate = 0.8;
-
-    synth.speak(utterance);
-  };
 
   const handleInfoClick = () => {
     setMoreInfoSelected(!moreInfoSelected);
@@ -52,7 +34,7 @@ const Ranking: NextPage = () => {
               i={i}
               key={i}
               moreInfoSelected={moreInfoSelected}
-              setMoreInfoSelected={setMoreInfoSelected}
+              setMoreInfoSelected={handleInfoClick}
             />
           );
         })}
@@ -70,7 +52,7 @@ const Ranking: NextPage = () => {
               i={i}
               key={i}
               moreInfoSelected={moreInfoSelected}
-              setMoreInfoSelected={setMoreInfoSelected}
+              setMoreInfoSelected={handleInfoClick}
             />
           );
         })}

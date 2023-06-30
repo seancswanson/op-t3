@@ -1,9 +1,8 @@
-import { Stand } from "@prisma/client";
-import { Dispatch, SetStateAction } from "react";
+import type { Stand } from "@prisma/client";
+import type { Dispatch, SetStateAction } from "react";
 import jojoLogo from "../../public/jjba_pixel_logo.png";
-import { MouseEvent } from "react";
 
-import { handleSpeakClick, romajiText } from "../utils/handlers";
+import { speakUtterance, votePercentage } from "../utils/handlers";
 import Image from "next/legacy/image";
 
 interface Props {
@@ -13,27 +12,16 @@ interface Props {
   setMoreInfoSelected: Dispatch<SetStateAction<boolean>>;
 }
 export const RankTile = (props: Props) => {
-      const synth = window.speechSynthesis;
-      const handleSpeakClick = () => {
-        const utterance = new SpeechSynthesisUtterance(
-          romajiText(props.stand?.name || "No name")
-        );
+  const handleButtonClick = speakUtterance(props.stand);
 
-        // As the voices were already loaded in the voice selector
-        // we don't need to use the onvoiceschanged event
-        utterance.voice = synth.getVoices()[69]!;
-        utterance.rate = 0.8;
-
-        synth.speak(utterance);
-      };
   return (
     <div
       className="relative flex flex-col items-center border-2 border-gray-700"
       key={props.i}
-      onClick={handleSpeakClick}
+      onClick={handleButtonClick}
     >
       <div className="rank self-start border-2 bg-stone-200 px-2 text-black">
-        {props.stand.id}
+        {props.i + 1}
       </div>
       <div className="stand-picture-container relative mb-2 h-24 w-24 rounded-full border-2 border-gray-700">
         <Image
@@ -48,7 +36,14 @@ export const RankTile = (props: Props) => {
         />
       </div>
       <div className="name text-center text-2xl">{props.stand.name}</div>
-      <div className="ratio text-center text-2xl">99.9%</div>
+      <div className="ratio flex flex-col text-center text-2xl">
+        <div className="top">
+          {votePercentage(props.stand.votesFor, props.stand.votesAgainst)}
+        </div>
+        <div className="bottom flex text-sm">
+          +{props.stand.votesFor} -{props.stand.votesAgainst}
+        </div>
+      </div>
     </div>
   );
 };
