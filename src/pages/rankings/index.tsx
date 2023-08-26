@@ -6,11 +6,7 @@ import Link from "next/link";
 import { trpc } from "../../utils/trpc";
 import { RankRow } from "../../components/rank-row";
 import { RankTile } from "../../components/rank-tile";
-
-const calculatePercentage = (votesFor: number, votesAgainst: number) => {
-  if (votesFor === 0 && votesAgainst === 0) return 0;
-  return (votesFor / (votesFor + votesAgainst)) * 100;
-};
+import type { Stand } from "@prisma/client";
 
 const Ranking: NextPage = () => {
   const allStands = trpc.data.getAllStands.useQuery();
@@ -28,14 +24,26 @@ const Ranking: NextPage = () => {
   }
 
   // Sort by percentage and then by votesFor
-  const sortedStands = [...allStandsLoaded].sort((a, b) => {
-    const percentageA = calculatePercentage(a.votesFor, a.votesAgainst);
-    const percentageB = calculatePercentage(b.votesFor, b.votesAgainst);
+  const sortedStands = allStandsLoaded.sort((a: Stand, b: Stand) => {
+    const totalVotesA = a.votesFor + a.votesAgainst;
+    const totalVotesB = b.votesFor + b.votesAgainst;
+    const percentageA =
+      totalVotesA !== 0 ? (a.votesFor / totalVotesA) * 100 : 0;
+    const percentageB =
+      totalVotesB !== 0 ? (b.votesFor / totalVotesB) * 100 : 0;
 
-    if (percentageA === percentageB) {
-      return b.votesFor - a.votesFor;
-    }
-    return percentageB - percentageA;
+    if (percentageA > percentageB) return -1;
+    if (percentageA < percentageB) return 1;
+
+    // If percentage is equal, sort by votesFor
+    if (a.votesFor > b.votesFor) return -1;
+    if (a.votesFor < b.votesFor) return 1;
+
+    // If votesFor is also equal, sort by votesAgainst (higher votesAgainst goes to bottom)
+    if (a.votesAgainst < b.votesAgainst) return -1;
+    if (a.votesAgainst > b.votesAgainst) return 1;
+
+    return 0; // default case if everything is equal
   });
 
   const galleryView = () => {
