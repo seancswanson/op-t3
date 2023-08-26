@@ -7,6 +7,11 @@ import { trpc } from "../../utils/trpc";
 import { RankRow } from "../../components/rank-row";
 import { RankTile } from "../../components/rank-tile";
 
+const calculatePercentage = (votesFor: number, votesAgainst: number) => {
+  if (votesFor === 0 && votesAgainst === 0) return 0;
+  return (votesFor / (votesFor + votesAgainst)) * 100;
+};
+
 const Ranking: NextPage = () => {
   const allStands = trpc.data.getAllStands.useQuery();
   const allStandsLoaded = allStands.data;
@@ -22,12 +27,21 @@ const Ranking: NextPage = () => {
     return <h1>Loading...</h1>;
   }
 
-  console.log(allStands);
+  // Sort by percentage and then by votesFor
+  const sortedStands = [...allStandsLoaded].sort((a, b) => {
+    const percentageA = calculatePercentage(a.votesFor, a.votesAgainst);
+    const percentageB = calculatePercentage(b.votesFor, b.votesAgainst);
+
+    if (percentageA === percentageB) {
+      return b.votesFor - a.votesFor;
+    }
+    return percentageB - percentageA;
+  });
 
   const galleryView = () => {
     return (
       <div className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4">
-        {allStands.data.map((stand, i) => {
+        {sortedStands.map((stand, i) => {
           return (
             <RankTile
               stand={stand}
@@ -45,7 +59,7 @@ const Ranking: NextPage = () => {
   const rowView = () => {
     return (
       <div className="rankings-container">
-        {allStands.data.map((stand, i) => {
+        {sortedStands.map((stand, i) => {
           return (
             <RankRow
               stand={stand}
@@ -70,7 +84,7 @@ const Ranking: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="relative flex min-h-screen flex-col  pt-[180px]">
+      <div className="relative flex min-h-screen flex-col pt-[180px]">
         <header className="absolute top-0 right-0 flex flex-col items-end p-4 ">
           <Link className="title border-2 text-center text-4xl" href="/">
             OP-T3

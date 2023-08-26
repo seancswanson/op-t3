@@ -14,6 +14,10 @@ interface Props {
 
 export const RankRow = (props: Props) => {
   const handleButtonClick = speakUtterance(props.stand);
+  const calculatedPercentage = parseFloat(
+    votePercentage(props.stand.votesFor, props.stand.votesAgainst).toFixed(2)
+  );
+
   return (
     <div
       className="rank-row flex justify-between border border-b-0"
@@ -41,11 +45,9 @@ export const RankRow = (props: Props) => {
         </div>
       </div>
       <div className="right flex items-center px-4">
-        <div className="ratio flex flex-col items-center text-2xl">
-          <div className="top">
-            {votePercentage(props.stand.votesFor, props.stand.votesAgainst)}
-          </div>
-          <div className="bottom flex text-sm">
+        <div className="ratio flex flex-col items-end text-2xl">
+          {!isNaN(calculatedPercentage) ? `%${calculatedPercentage}` : "%0"}
+          <div className="bottom flex items-end text-sm">
             +{props.stand.votesFor} -{props.stand.votesAgainst}
           </div>{" "}
         </div>

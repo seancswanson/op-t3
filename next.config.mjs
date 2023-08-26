@@ -14,7 +14,7 @@ const config = {
     defaultLocale: "en",
   },
   images: {
-    domains: ['static.jojowiki.com']
-  }
+    domains: ["static.jojowiki.com", "static.wikia.nocookie.net"],
+  },
 };
 export default config;

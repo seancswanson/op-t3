@@ -13,7 +13,10 @@ interface Props {
 }
 export const RankTile = (props: Props) => {
   const handleButtonClick = speakUtterance(props.stand);
-
+  const calculatedPercentage = parseFloat(
+    votePercentage(props.stand.votesFor, props.stand.votesAgainst).toFixed(2)
+  );
+  console.log(calculatedPercentage);
   return (
     <div
       className="relative flex flex-col items-center border-2 border-gray-700"
@@ -38,9 +41,9 @@ export const RankTile = (props: Props) => {
       <div className="name text-center text-2xl">{props.stand.name}</div>
       <div className="ratio flex flex-col text-center text-2xl">
         <div className="top">
-          {votePercentage(props.stand.votesFor, props.stand.votesAgainst)}
+          {!isNaN(calculatedPercentage) ? `%${calculatedPercentage}` : "%0"}
         </div>
-        <div className="bottom flex text-sm">
+        <div className="bottom text-sm">
           +{props.stand.votesFor} -{props.stand.votesAgainst}
         </div>
       </div>
