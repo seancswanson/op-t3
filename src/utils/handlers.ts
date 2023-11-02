@@ -6,19 +6,13 @@ export const speakUtterance = (stand: Stand | undefined) => {
   return (e: MouseEvent<HTMLButtonElement | HTMLDivElement>) => {
     e.preventDefault();
     const synth = window.speechSynthesis;
-    synth.cancel(); // Cancel any currently speaking or queued utterances
+    synth.cancel();
 
-    if (stand?.name) {
-      const utterance = new SpeechSynthesisUtterance(stand.name);
-      utterance.voice = synth.getVoices()[69] ?? null;
-      utterance.rate = 0.8;
-      synth.speak(utterance);
-    } else {
-      const utterance = new SpeechSynthesisUtterance("No name");
-      utterance.voice = synth.getVoices()[69] ?? null;
-      utterance.rate = 0.8;
-      synth.speak(utterance);
-    }
+    const utteranceText = stand?.name || "No name";
+    const utterance = new SpeechSynthesisUtterance(utteranceText);
+    utterance.voice = synth.getVoices()[75] ?? null;
+    utterance.rate = 0.8;
+    synth.speak(utterance);
   };
 };
 
@@ -26,9 +20,7 @@ export const romajiText = (value: string) => {
   const romaji = wanakana.toRomaji(value || "text");
   const fullRomaji = wanakana.tokenize(romaji);
   const formattedRomaji = fullRomaji
-    .map((fragment) => {
-      return fragment === "/" ? "" : fragment;
-    })
+    .map((fragment) => (fragment === "/" ? "" : fragment))
     .join(" ");
 
   return formattedRomaji;

@@ -15,7 +15,6 @@ const AddVoteComponent: React.FC<{
   votedAgainstId: number;
   onVoteSubmitted: () => void;
 }> = ({ votedForId, votedAgainstId, onVoteSubmitted }) => {
-  console.log("fire");
   trpc.data.addVote.useQuery({
     votedForId,
     votedAgainstId,
@@ -32,7 +31,6 @@ const Home: NextPage = () => {
     votedAgainstId: number;
   } | null>(null);
   const handleVoteSubmitted = () => {
-    console.log("submitted");
     setIds(getOptionsForVote());
     setClickedVote(null);
   };
@@ -45,11 +43,8 @@ const Home: NextPage = () => {
     const votedForId = votedFor;
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     const votedAgainstId = ids.find((id) => id !== votedForId)!;
-    console.log("hoi", [votedFor, votedAgainstId]);
     setClickedVote({ votedForId, votedAgainstId });
   };
-
-  console.log(...ids);
 
   const firstStand = trpc.data.getStandById.useQuery({ id: first });
   const secondStand = trpc.data.getStandById.useQuery({ id: second });
