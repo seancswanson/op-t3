@@ -23,7 +23,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "superjson": "1.9.1",
-    "use-view-transitions": "^1.0.16",
     "wanakana": "^5.0.2",
     "zod": "^3.18.0"
   },
