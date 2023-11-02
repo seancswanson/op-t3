@@ -16,7 +16,6 @@ export const RankTile = (props: Props) => {
   const calculatedPercentage = parseFloat(
     votePercentage(props.stand.votesFor, props.stand.votesAgainst).toFixed(2)
   );
-  console.log(calculatedPercentage);
   return (
     <div
       className="relative flex flex-col items-center border-2 border-gray-700"
