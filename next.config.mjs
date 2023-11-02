@@ -14,7 +14,16 @@ const config = {
     defaultLocale: "en",
   },
   images: {
-    domains: ["static.jojowiki.com", "static.wikia.nocookie.net"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "static.jojowiki.com",
+      },
+      {
+        protocol: "https",
+        hostname: "static.wikia.nocookie.net",
+      },
+    ],
   },
 };
 export default config;
